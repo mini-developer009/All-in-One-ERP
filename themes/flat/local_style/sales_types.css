@@ -1,0 +1,6 @@
+
+@media all and (max-width: 967px) and (min-width: 481px) {
+	#_page_body > form > center > table {
+		width: auto ;
+	}
+}

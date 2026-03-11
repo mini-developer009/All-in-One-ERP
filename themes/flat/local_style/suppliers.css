@@ -1,0 +1,4 @@
+@import url(customers.css);
+.tablestyle_noborder .select2 {
+	width: 100% !important;
+}

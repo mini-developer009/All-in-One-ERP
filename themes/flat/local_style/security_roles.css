@@ -1,0 +1,12 @@
+@import url(local_simple_page_mode.css);
+@media all and (max-width: 480px) {
+	div#details > center > table.tablestyle {
+		width: 80%;
+	}
+}
+@media all and (min-width: 480px) and (max-width: 680px) {
+	div#details > center > table.tablestyle {
+		width: 60%;
+		text-align: left;
+	}
+}

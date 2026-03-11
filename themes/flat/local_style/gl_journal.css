@@ -1,0 +1,17 @@
+@import url(local.css);
+@media all and (max-width: 680px) {
+	div.contentBox > center:first-child > table.tablestyle2, div.contentBox > center:first-child > table.tablestyle2 > tbody, div.contentBox > center:first-child > table.tablestyle2 > tbody > tr, div.contentBox > center:first-child > table.tablestyle2 > tbody > tr > td, div.contentBox > center:first-child > table.tablestyle2 > tbody > tr > td > table, div.contentBox > center:first-child > table.tablestyle2 > tbody > tr > td > table > tbody, div.contentBox > center:first-child > table.tablestyle2 > tbody > tr > td > table > tbody > tr, div.contentBox > center:first-child > table.tablestyle2 > tbody > tr > td > table > tbody > tr > td {
+		display: block;
+		width: 100%;
+		border: 0;
+	}
+	div.contentBox > center > table.tablestyle2 > tbody > tr > td > table > tbody > tr > td > textarea {
+		width: calc(100% - 2em);
+		margin-left: 1em;
+	}
+/*
+	div.contentBox > center:not(:first-child) > table.tablestyle2 {
+		width: auto;
+	}
+*/
+}

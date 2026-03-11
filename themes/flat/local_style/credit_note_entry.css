@@ -1,0 +1,32 @@
+@import url(local.css);
+/*ENTRY ITEMS*/
+@media all and (max-width: 680px) {
+	#_page_body > form > center:not(:first-child) > table.tablestyle, #_page_body > form > center:not(:first-child) > table.tablestyle > tbody, #_page_body > form > center:not(:first-child) > table.tablestyle > tbody > tr, #_page_body > form > center:not(:first-child) > table.tablestyle > tbody > tr > td, div#items_table, div#options, div#options > center > table.tablestyle2, div#options > center > table.tablestyle2 > tbody, div#options > center > table.tablestyle2 > tbody > tr,  div#options > center > table.tablestyle2 > tbody > tr > td {
+		display: block;
+		width: 100%;
+		border: 0 !important;
+	}
+	div#items_table > center {
+		padding-bottom: 1em;
+	}
+	div#options > center > table.tablestyle2 > tbody > tr {
+		margin-bottom: 1em;
+	}
+	div#options > center > table.tablestyle2 > tbody > tr > td {
+		display: inline-block;
+		width: calc(100% - 4em);
+		margin-left: 2em;
+		border: 0;
+	}
+	div#options > center > table.tablestyle2 > tbody > tr > td.label {
+		margin: 0;
+		line-height: 1em;
+	}
+	div#options > center > table.tablestyle2 > tbody > tr > td > * {
+		width: 100%;
+	}
+	#_page_body > form > center:not(:first-child) > table.tablestyle .list_box {
+		max-width: 100%;
+		min-width: 100%;
+	}
+}

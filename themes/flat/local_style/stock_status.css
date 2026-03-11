@@ -1,0 +1,9 @@
+#_page_body > form > center:first-child {
+	padding: 3px 0;
+}
+/*
+@media all and (max-width: 480px) {
+	#_page_body > form > div#status_tbl > center {
+		padding-bottom: 1em;
+	}
+}*/

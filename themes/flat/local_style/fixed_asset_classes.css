@@ -1,0 +1,25 @@
+
+@media all and (max-width: 680px) {
+	#_page_body > form > div#par_tbl, div#par_tbl > center > table.tablestyle2, form > div#par_tbl > center > table.tablestyle2 > tbody, form > div#par_tbl > center > table.tablestyle2 > tbody > tr, form > div#par_tbl > center > table.tablestyle2 > tbody > tr > td {
+		display: block;
+		width: 100% ;
+		border: 1px solid red;
+	}
+	form > div#par_tbl > center > table.tablestyle2 > tbody > tr {
+		margin-bottom: 1em;
+	}
+	form > div#par_tbl > center > table.tablestyle2 > tbody > tr > td.label {
+		padding-left: 1em;
+		line-height: 1em
+	}
+	form > div#par_tbl  > center > table.tablestyle2 > tbody > tr > td > *:not(.date_box):not(img) {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	form > div#par_tbl > center > table.tablestyle2 > tbody > tr > td > .date_box {
+		margin-left: 2em;
+	}
+	form > div#par_tbl > center > table.tablestyle2 > tbody > tr > td .list_box {
+		width: 100%;
+	}
+}

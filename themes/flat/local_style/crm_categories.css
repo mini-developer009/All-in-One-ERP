@@ -1,0 +1,6 @@
+@import url(local_simple_page_mode.css);
+@media all and (max-width: 680px) {
+	#_page_body > form > center:first-child > table.tablestyle {
+		width: auto;
+	}
+}

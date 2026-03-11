@@ -1,0 +1,11 @@
+Package: fronthrm
+Name: FrontHrm
+Description: FrontHrm Module for NGICON ERP.
+Author: Phuong <trananhphuong83@gmail.com>
+Maintenance: Phuong <trananhphuong83@gmail.com>
+Homepage: https://github.com/notrinos/FrontHrm
+Type: extension
+InstallPath: modules/FrontHrm
+Filename: fronthrm-2.4.0-10
+Version: 2.4.0-10
+

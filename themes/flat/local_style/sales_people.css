@@ -1,0 +1,15 @@
+
+@media all and (max-width: 420px) {
+	#_page_body > form > center > table.tablestyle2, #_page_body > form > center > table.tablestyle2 > tbody, #_page_body > form > center > table.tablestyle2 > tbody > tr, #_page_body > form > center > table.tablestyle2 > tbody > tr > td {
+		display: block;
+		width: 100% ;
+		border: 0;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td.label {
+		padding-left: 1em;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td *:not(#_provision_label):not(#_provision2_label) {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+}

@@ -1,0 +1,11 @@
+@import url(local_simple_page_mode.css);
+@media all and (max-width: 480px) {
+	#_page_body > form > div#details > center > table.tablestyle2 > tbody > tr:nth-child(2) {
+		margin-bottom: 0;
+	}
+	#_page_body > form > div#details > center > table.tablestyle2 > tbody > tr:nth-child(6) > td, #_page_body > form > div#details > center > table.tablestyle2 > tbody > tr:nth-child(7) > td {
+		display: inline-block;
+		width: auto;
+		min-width: 150px;
+	}
+}

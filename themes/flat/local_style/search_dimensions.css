@@ -1,0 +1,7 @@
+@import url(local.css);
+
+@media all and (max-width: 680px) {
+	#_page_body > form > center > table.tablestyle_noborder > tbody > tr > td:nth-child(3) {
+		clear: left;
+	}
+}

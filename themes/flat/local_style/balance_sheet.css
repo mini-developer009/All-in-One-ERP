@@ -1,0 +1,6 @@
+@import url(local.css);
+@media all and (max-width: 680px) {
+	div#balance_tbl > center > table.tablestyle {
+		width: auto;
+	}
+}

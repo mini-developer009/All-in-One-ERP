@@ -1,0 +1,35 @@
+@import url(local.css);
+@media all and (max-width: 680px) {
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td:nth-child(3) > table.tablestyle_inner > tbody > tr > td > input.amount {
+		width: calc(100% - 4.5em)
+	}
+	#_page_body > form > center > table.tablestyle {
+		width: auto;
+	}
+}
+@media all and (max-width: 480px) {
+	#_page_body > form > center > table.tablestyle, #_page_body > form > center > table.tablestyle > tbody, #_page_body > form > center > table.tablestyle > tbody > tr, #_page_body > form > center > table.tablestyle > tbody > tr > td {
+		display: block;
+		width: 100% ;
+		border: 0;
+	}
+	#_page_body > form > center > table.tablestyle > tbody > tr {
+		margin-bottom: 1em;
+	}
+	#_page_body > form > center > table.tablestyle > tbody > tr > td.label {
+		padding-left: 1em;
+		line-height: 1em
+	}
+	#_page_body > form > center > table.tablestyle > tbody > tr:nth-child(1) > td {
+		display: inline-block;
+		width: auto;
+	}
+	#_page_body > form > center > table.tablestyle > tbody > tr > td > * {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	#_page_body > form > center > table.tablestyle > tbody > tr > td .select2 {
+		max-width: calc(100% - 4em);
+		min-width: calc(100% - 4em);
+	}
+}

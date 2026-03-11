@@ -1,0 +1,23 @@
+
+@media all and (max-width: 480px) {
+	div#edits, div#edits > center > table.tablestyle2, div#edits > center > table.tablestyle2 > tbody, div#edits > center > table.tablestyle2 > tbody > tr, div#edits > center > table.tablestyle2 > tbody > tr > td {
+		display: block;
+		width: 100% ;
+		border: 0;
+	}
+	div#edits > center > table.tablestyle2 > tbody > tr {
+		margin-bottom: 1em;
+	}
+	div#edits > center > table.tablestyle2 > tbody > tr > td.label {
+		padding-left: 1em;
+		line-height: 1em
+	}
+	div#edits  > center > table.tablestyle2 > tbody > tr > td > * {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	div#edits > center > table.tablestyle2 > tbody > tr > td .list_box {
+		max-width: calc(100% - 4em);
+		min-width: calc(100% - 4em);
+	}
+}

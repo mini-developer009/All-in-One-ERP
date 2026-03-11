@@ -1,0 +1,8 @@
+@media all and (max-width: 680px) {
+	#_page_body > table, #_page_body > table > tbody {
+		display: block;
+		width: 100%;
+		border-left: 0 !important;
+		border-right: 0 !important;
+	}
+}

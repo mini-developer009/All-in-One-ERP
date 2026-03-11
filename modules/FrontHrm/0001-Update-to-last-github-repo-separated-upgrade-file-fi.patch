@@ -1,0 +1,681 @@
+From 291557367262fa2bea0bd952dd5842a785279e2f Mon Sep 17 00:00:00 2001
+From: Janusz Dobrowolski <janusz@frontaccounting.eu>
+Date: Mon, 23 Jan 2023 21:46:27 +0100
+Subject: [PATCH 1/5] Update to last github repo, separated upgrade file, fixed
+ security area codes.
+
+---
+ _init/config     |  11 +++
+ _init/files      |  74 +++++++++++++++
+ hooks.php        |  11 ++-
+ sql/remove.sql   |   3 +
+ sql/update.sql   | 229 -----------------------------------------------
+ sql/upgrade2.sql | 125 ++++++++++++++++++++++++++
+ sql/version1.sql | 136 ++++++++++++++++++++++++++++
+ 7 files changed, 356 insertions(+), 233 deletions(-)
+ create mode 100644 _init/config
+ create mode 100644 _init/files
+ delete mode 100644 sql/update.sql
+ create mode 100644 sql/upgrade2.sql
+ create mode 100644 sql/version1.sql
+
+diff --git a/_init/config b/_init/config
+new file mode 100644
+index 0000000..6e44b08
+--- /dev/null
++++ b/_init/config
+@@ -0,0 +1,11 @@
++Package: fronthrm
++Name: FrontHrm
++Description: FrontHrm Module for NGICON ERP.
++Author: Phuong <trananhphuong83@gmail.com>
++Maintenance: Phuong <trananhphuong83@gmail.com>
++Homepage: https://github.com/notrinos/FrontHrm
++Type: extension
++InstallPath: modules/FrontHrm
++Filename: fronthrm-2.4.0-2
++Version: 2.4.0-2
++
+diff --git a/_init/files b/_init/files
+new file mode 100644
+index 0000000..3b9fa10
+--- /dev/null
++++ b/_init/files
+@@ -0,0 +1,74 @@
++/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/js/emp_payalloc.js: 7adc3f62b07ffcf5d69488e8e5bc39c63f463766
++/js/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/dashboard/widget901.php: 4d769d473c1a4edcc158bfafcbbdb795982e0984
++/dashboard/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/dashboard/custom_dashboards.php: 983da434eb78e7dbbdb466e8c413907541aacd69
++/dashboard/widget904.php: 90c8218bb4bf9fa0619c2352246123d488773f22
++/dashboard/widget902.php: 486521f812460b6d27fb57779c909c5447b6821c
++/dashboard/widget903.php: fb6d28f75922f1d36f1df9d0ce6453dd4c267c02
++/README.md: 9644822fd4db3ecdbedf263021be9e16c6317f63
++/images/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/images/avatar/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/images/avatar/no_image.svg: 328031a9247985fd27541f0c12a029a06833fd1f
++/inquiry/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/inquiry/time_sheet.php: be164ec84ce4ee7ed1173ce219ca412cd5ad31e4
++/inquiry/emp_inquiry.php: fd034be31b8fce8eb60e7b71bc40e6f39eeeff80
++/hooks.php: d756e42709fbef5f2aad1d391836da779904d245
++/sql/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/sql/version1.sql: 01fdf0142e66d6e7ddbf7c22a36e840e645839da
++/sql/remove.sql: 0ed2aa4691f592a82a239c02fa813893a09b8fc3
++/sql/upgrade2.sql: 19c14f7c1417b617616c8643f34f38845c4423da
++/LICENSE: 12d81f50767d4e09aa7877da077ad9d1b915d75b
++/_init/config: 18ac5c52263ff92a6d23bd3e3fc7fa2afbe48980
++/manage/employee_docs.php: 0634c2a7dd7029396720bb82a74f4176f99ee022
++/manage/doc_type.php: 1fa925a25107a5a302b3c32d5b161be91d4f58df
++/manage/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/manage/overtime.php: 92a8679cb118aec30cd2375bbde9b36c85d7e61a
++/manage/position.php: ac6f79c218f71b3fa756fd942167fdd4b81da6fd
++/manage/grade.php: 4d9b13b2b9ad32a4e24b8e49476f8c309d7fb109
++/manage/salary_structure.php: 9eff28e779b8800ac0a89ca5d421ca39cfe6eed7
++/manage/payslip.php: 38f7eb25128926586232c06c82e106963e9bb251
++/manage/accounts.php: 322392bd7da4fb02ab4cd226e87ce10d238338b5
++/manage/department.php: 8fb4694ee7e4ad0c04c50833955010ee51d44f21
++/manage/employee_bank_entry.php: caee9d76778d935a84eac92880f9fdc4ce00c2b5
++/manage/attendance.php: 2a89c10bfeee89a667cd3d3b49e967367b369093
++/manage/default_setup.php: 7bac3a6339a79760c38140102eea4648918b2383
++/manage/leave_types.php: 40c09838880cdefaa07afafaa57e0419228c941b
++/manage/employee.php: 1ce922d7a460d791c7e433198c646f829e316ff2
++/manage/payroll_rules.php: 61c4f9a4ff1592511cef568b6ea50be49c5a48fa
++/reporting/rep889.php: 2741e57f89e9915476c00d8d8415ca0f723ad844
++/reporting/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/reporting/redirect.php: 44135f340ac97a3bf8558d661b4fda5742cb877c
++/reporting/reports_custom.php: a9f890f1ab69732166fe1784c31785012fcb2b44
++/reporting/forms/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/reporting/forms/payslip_layout.php: a977ace3d3e6138987b8041274ea034b3170b0b9
++/reporting/rep_payslip.php: 81d62418b729b3e8cfb52356f50e5d357e145064
++/reporting/rep_employees.php: 8bf17692ef8f827c9c61277bd4644597069e5e9c
++/includes/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/includes/hrm_classes.inc: 11fd4bbda7edd7264e774cdaf43c3490763ff9f4
++/includes/ui/employee_bank_ui.inc: ed74c42121b5affdd459171f5fd98b09a949dce1
++/includes/ui/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/includes/ui/leave_ui.inc: f4ef99609ef0ab712b5c34aa4cc29a4e708657c0
++/includes/ui/department_ui.inc: 11a1373fec7c7ce5d47c88a4ce3994ea2f99104c
++/includes/ui/doc_ui.inc: 9a2a948690cc977f4feafee1813baf2eda7c9bbb
++/includes/ui/job_position_ui.inc: e73ec251aa75a1752c406165db998bc6b9ad6b39
++/includes/ui/payslip_ui.inc: 5acc4a33f936ba851e78b604a347788f0df5cfef
++/includes/ui/employee_ui.inc: fdd8ed41720e02d9660874e619bdff2d72d56043
++/includes/ui/overtime_ui.inc: ea294a2c74e5cb0d73ab83fec367cab6fc7ab61c
++/includes/db/job_position_db.inc: e7118404a58030ce98d3b840c0546bd5a1304d9b
++/includes/db/index.php: 435866102943ef00e38d96927cb5ee20bff20688
++/includes/db/leave_db.inc: b4b9725437098f534f687215ac1fbd917f03b604
++/includes/db/department_db.inc: f3e564d4a315f3a0c838bbb1062844277dfdb2f8
++/includes/db/salary_structure_db.inc: 2a8449e76ec122959ee7141ec216f6e2da6ca751
++/includes/db/employee_db_banking.inc: be82035baaf2858a4e8079b4f9ce7f855558596c
++/includes/db/attendance_db.inc: a97baf2b5b7369647cdb7118bca55f46b5f0be56
++/includes/db/grade_db.inc: 7a6609ff93fb0a8b6ef6cc06101e529e8bc73b08
++/includes/db/account_db.inc: b1ec61de26fc94571e72c14dedd4182c4706da6e
++/includes/db/payslip_db.inc: 70f3b477f9e6d31c210f18998cdf8bcf5531029a
++/includes/db/doc_db.inc: a35852b595de74cf233eebe4cbd4ab64978d83c5
++/includes/db/employee_db.inc: 93bc68666d1236f05237e6da1efb904518029d3a
++/includes/db/overtime_db.inc: ba8ee4652fbe32199b3e2f2b3cabf86d85de2769
++/includes/frontHrm_ui.inc: e9e437a661d88f535c0cbb40057568832de73101
++/includes/frontHrm_db.inc: af34cc000fbfebafb9c6fc165c4a9c7f18fd9a42
++
+diff --git a/hooks.php b/hooks.php
+index c8dde82..7a9fa4e 100644
+--- a/hooks.php
++++ b/hooks.php
+@@ -60,16 +60,19 @@ class hooks_FrontHrm extends hooks {
+ 	function install_access() {
+ 		$security_sections[SS_HRM] =  _('Human Resource');
+ 		$security_areas['SA_EMPL'] = array(SS_HRM|1, _('Employee entry'));
+-		$security_areas['SA_ATTENDANCE'] = array(SS_HRM|1, _('Attendance entry'));
+-		$security_areas['SA_PAYSLIP'] = array(SS_HRM|1, _('Payslip entry'));
+-		$security_areas['SA_HRSETUP'] = array(SS_HRM|1, _('Hrm setup'));
++		$security_areas['SA_ATTENDANCE'] = array(SS_HRM|2, _('Attendance entry'));
++		$security_areas['SA_PAYSLIP'] = array(SS_HRM|3, _('Payslip entry'));
++		$security_areas['SA_HRSETUP'] = array(SS_HRM|4, _('Hrm setup'));
+ 		return array($security_areas, $security_sections);
+ 	}
+ 	
+ 	function activate_extension($company, $check_only=true) {
+ 		global $db_connections;
+ 		
+-		$updates = array( 'update.sql' => array('fronthrm'));
++		$updates = array(
++		    'version1.sql' => array('employee'),
++		    'upgrade2.sql' => array('pay_element')
++		);
+ 		
+ 		return $this->update_databases($company, $updates, $check_only);
+ 	}
+diff --git a/sql/remove.sql b/sql/remove.sql
+index b06d8a9..f62baf7 100644
+--- a/sql/remove.sql
++++ b/sql/remove.sql
+@@ -1,8 +1,10 @@
+ DROP TABLE IF EXISTS `0_employee`;
+ DROP TABLE IF EXISTS `0_department`;
++DROP TABLE IF EXISTS `0_salaryscale`;
+ DROP TABLE IF EXISTS `0_position`;
+ DROP TABLE IF EXISTS `0_overtime`;
+ DROP TABLE IF EXISTS `0_attendance`;
++DROP TABLE IF EXISTS `0_payroll_account`;
+ DROP TABLE IF EXISTS `0_pay_element`;
+ DROP TABLE IF EXISTS `0_payroll_structure`;
+ DROP TABLE IF EXISTS `0_salary_structure`;
+@@ -16,6 +18,7 @@ DROP TABLE IF EXISTS `0_document_types`;
+ DROP TABLE IF EXISTS `0_employee_docs`;
+ DROP TABLE IF EXISTS `0_grade_table`;
+ DROP TABLE IF EXISTS `0_leave_type`;
++DROP TABLE IF EXISTS `0_leave`;
+ 
+ DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_deductleave_act';
+ DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_month_work_days';
+diff --git a/sql/update.sql b/sql/update.sql
+deleted file mode 100644
+index 8c8e040..0000000
+--- a/sql/update.sql
++++ /dev/null
+@@ -1,229 +0,0 @@
+-DROP TABLE IF EXISTS `0_employee`;
+-CREATE TABLE IF NOT EXISTS `0_employee` (
+-	`emp_id` int(11) NOT NULL AUTO_INCREMENT,
+-	`emp_first_name` varchar(100) DEFAULT NULL,
+-	`emp_last_name` varchar(100) DEFAULT NULL,
+-	`gender` tinyint(1) NOT NULL DEFAULT '0',
+-	`emp_address` tinytext,
+-	`emp_mobile` varchar(30) DEFAULT NULL,
+-	`emp_email` varchar(100) DEFAULT NULL,
+-	`emp_birthdate` date NOT NULL,
+-	`national_id` varchar(100) DEFAULT NULL,
+-	`passport` varchar(100) DEFAULT NULL,
+-	`bank_account` varchar(100) DEFAULT NULL,
+-	`tax_number` varchar(100) DEFAULT NULL,
+-	`emp_notes` tinytext NOT NULL,
+-	`emp_hiredate` date DEFAULT NULL,
+-	`department_id` int(11) NOT NULL,
+-	`position_id` int(11) NOT NULL DEFAULT '0',
+-	`grade_id` tinyint(2) UNSIGNED NOT NULL DEFAULT '0',
+-	`personal_salary` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
+-	`emp_releasedate` date DEFAULT NULL,
+-	`inactive` tinyint(1) NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`emp_id`),
+-	KEY `position_id` (`position_id`),
+-	KEY `department_id` (`department_id`)
+-) ENGINE=InnoDB;
+-
+-
+-DROP TABLE IF EXISTS `0_department`;
+-CREATE TABLE IF NOT EXISTS `0_department` (
+-	`dept_id` int(11) NOT NULL AUTO_INCREMENT,
+-	`dept_name` tinytext NOT NULL,
+-	`basic_account` varchar(15) NULL,
+-	`inactive` tinyint(1) NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`dept_id`)
+-) ENGINE=InnoDB;
+-
+-
+-DROP TABLE IF EXISTS `0_position`;
+-CREATE TABLE IF NOT EXISTS `0_position` (
+-	`position_id` int(11) NOT NULL AUTO_INCREMENT,
+-	`position_name` text NOT NULL,
+-	`inactive` tinyint(1) NOT NULL DEFAULT '0',
+-	`pay_basis` tinyint(1) NOT NULL DEFAULT '0' COMMENT '0 = monthly, 1 = daily',
+-	PRIMARY KEY (`position_id`)
+-) ENGINE=InnoDB;
+-
+-
+-DROP TABLE IF EXISTS `0_overtime`;
+-CREATE TABLE IF NOT EXISTS `0_overtime` (
+-	`overtime_id` int(11) NOT NULL AUTO_INCREMENT,
+-	`overtime_name` varchar(100) NOT NULL,
+-	`overtime_rate` float(5) NOT NULL,
+-	`inactive` tinyint(1) NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`overtime_id`)
+-) ENGINE=InnoDB;
+-
+-
+-DROP TABLE IF EXISTS `0_attendance`;
+-CREATE TABLE IF NOT EXISTS `0_attendance` (
+-	`emp_id` int(11) NOT NULL,
+-	`overtime_id` int(11) NOT NULL,
+-	`hours_no` float(5) UNSIGNED NOT NULL,
+-	`rate` float(5) NOT NULL DEFAULT '1',
+-	`att_date` date NOT NULL,
+-	PRIMARY KEY (`emp_id`,`overtime_id`,`att_date`)
+-) ENGINE=InnoDB;
+-
+-DROP TABLE IF EXISTS `0_leave`;
+-CREATE TABLE IF NOT EXISTS `0_leave` (
+-	`emp_id` int(11) NOT NULL,
+-	`leave_id` int(11) NOT NULL,
+-	`pay_rate` float(5) NOT NULL DEFAULT '1',
+-	`date` date NOT NULL,
+-	PRIMARY KEY (`emp_id`,`leave_id`,`date`)
+-) ENGINE=InnoDB;
+-
+-
+-DROP TABLE IF EXISTS `0_pay_element`;
+-CREATE TABLE IF NOT EXISTS `0_pay_element` (
+-	`element_id` int(11) NOT NULL AUTO_INCREMENT,
+-	`element_name` varchar(100) NOT NULL DEFAULT '',
+-	`account_code` varchar(15) NOT NULL,
+-	PRIMARY KEY (`element_id`),
+-	UNIQUE (`account_code`)
+-) ENGINE=InnoDB;
+-
+-
+-DROP TABLE IF EXISTS `0_payroll_structure`;
+-CREATE TABLE IF NOT EXISTS `0_payroll_structure` (
+-	`position_id` int(11) NOT NULL,
+-	`payroll_rule` text NOT NULL,
+-	KEY `position_id` (`position_id`)
+-) ENGINE=InnoDB;
+-
+-
+-DROP TABLE IF EXISTS `0_salary_structure`;
+-CREATE TABLE IF NOT EXISTS `0_salary_structure` (
+-	`id` int(11) NOT NULL AUTO_INCREMENT,
+-	`date` date NOT NULL,
+-	`position_id` int(11) NOT NULL,
+-	`grade_id` tinyint(2) NOT NULL DEFAULT '0',
+-	`pay_rule_id` varchar(15) NOT NULL,
+-	`pay_amount` double NOT NULL,
+-	`type` tinyint(1) NOT NULL COMMENT '0 for credit, 1 for debit',
+-	`is_basic` tinyint(1) NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`id`)
+-) ENGINE=InnoDB;
+-
+-
+-DROP TABLE IF EXISTS `0_personal_salary_structure`;
+-CREATE TABLE IF NOT EXISTS `0_personal_salary_structure` (
+-	`id` int(11) NOT NULL AUTO_INCREMENT,
+-	`date` date NOT NULL,
+-	`emp_id` int(11) NOT NULL,
+-	`pay_rule_id` varchar(15) NOT NULL,
+-	`pay_amount` double NOT NULL,
+-	`type` tinyint(1) NOT NULL COMMENT '0 for credit, 1 for debit',
+-	`is_basic` tinyint(1) NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`id`)
+-) ENGINE=InnoDB;
+-
+-
+-DROP TABLE IF EXISTS `0_payslip`;
+-CREATE TABLE IF NOT EXISTS `0_payslip` (
+-	`payslip_no` int(11) NOT NULL AUTO_INCREMENT,
+-	`trans_no` int(11) NOT NULL DEFAULT '0',
+-	`emp_id` int(11) NOT NULL,
+-	`generated_date` date NOT NULL,
+-	`from_date` date NOT NULL,
+-	`to_date` date NOT NULL,
+-	`leaves` int(11) NOT NULL,
+-	`deductable_leaves` int(11) NOT NULL,
+-	`payable_amount` double NOT NULL DEFAULT '0',
+-	`salary_amount` double NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`payslip_no`)
+-) ENGINE=InnoDB;
+-
+-DROP TABLE IF EXISTS `0_payslip_details`;
+-CREATE TABLE IF NOT EXISTS `0_payslip_details` (
+-	`payslip_no` int(11) NOT NULL AUTO_INCREMENT,
+-	`detail` int(11) NOT NULL DEFAULT '0',
+-	`amount` double NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`payslip_no`, `detail`)
+-) ENGINE=InnoDB;
+-
+-DROP TABLE IF EXISTS `0_employee_trans`;
+-CREATE TABLE IF NOT EXISTS `0_employee_trans` (
+-	`id` int(11) NOT NULL AUTO_INCREMENT,
+-	`trans_no` int(11) UNSIGNED NOT NULL DEFAULT '0',
+-	`trans_type` smallint(6) UNSIGNED NOT NULL DEFAULT '0',
+-	`payslip_no` int(11) NOT NULL DEFAULT '0',
+-	`pay_date` date NOT NULL,
+-	`to_the_order_of` varchar(255) NOT NULL,
+-	`pay_amount` double NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`id`)
+-) ENGINE=InnoDB;
+-
+-DROP TABLE IF EXISTS `0_employee_advance`;
+-CREATE TABLE IF NOT EXISTS `0_employee_advance` (
+-	`emp_trans_no` int(11) NOT NULL,
+-	`emp_id` int(11) NOT NULL
+-) ENGINE=InnoDB;
+-
+-DROP TABLE IF EXISTS `0_employee_advance_allocation`;
+-CREATE TABLE IF NOT EXISTS `0_employee_advance_allocation` (
+-	`trans_no_from` int(11) DEFAULT NULL,
+-	`trans_no_to` int(11) DEFAULT NULL,
+-	`amount` double UNSIGNED DEFAULT NULL
+-) ENGINE=InnoDB;
+-
+-DROP TABLE IF EXISTS `0_document_types`;
+-CREATE TABLE IF NOT EXISTS `0_document_types` (
+-	`type_id` int(11) NOT NULL AUTO_INCREMENT,
+-	`type_name` varchar(100) NOT NULL,
+-	`notify_before` smallint(5) UNSIGNED NOT NULL,
+-	`inactive` tinyint(1) NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`type_id`)
+-) ENGINE=InnoDB;
+-
+-DROP TABLE IF EXISTS `0_employee_docs`;
+-CREATE TABLE IF NOT EXISTS `0_employee_docs` (
+-	`id` int(11) NOT NULL AUTO_INCREMENT,
+-	`emp_id` int(11) NOT NULL,
+-	`type_id` int(11) NOT NULL,
+-	`description` varchar(60) NOT NULL default '',
+-	`issue_date` date DEFAULT NULL,
+-	`expiry_date` date DEFAULT NULL,
+-	`alert` tinyint(1) NOT NULL DEFAULT '0',
+-	`unique_name` varchar(60) NOT NULL default '',
+-	`filename` varchar(60) NOT NULL default '',
+-	`filesize` int(11) NOT NULL default '0',
+-	`filetype` varchar(60) NOT NULL default '',
+-	PRIMARY KEY (`id`)
+-) ENGINE=InnoDB;
+-
+-DROP TABLE IF EXISTS `0_grade_table`;
+-CREATE TABLE IF NOT EXISTS `0_grade_table` (
+-	`grade_id` tinyint(2) NOT NULL,
+-	`position_id` int(11) NOT NULL,
+-	`amount` double NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`grade_id`, `position_id`)
+-) ENGINE=InnoDB;
+-
+-DROP TABLE IF EXISTS `0_leave_type`;
+-CREATE TABLE IF NOT EXISTS `0_leave_type` (
+-	`leave_id` int(11) NOT NULL AUTO_INCREMENT,
+-	`leave_name` varchar(100) NOT NULL,
+-	`leave_code` varchar(3) NOT NULL,
+-	`pay_rate` float(5) NOT NULL,
+-	`inactive` tinyint(1) NOT NULL DEFAULT '0',
+-	PRIMARY KEY (`leave_id`)
+-) ENGINE=InnoDB;
+-
+-DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_deductleave_act';
+-DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_month_work_days';
+-DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_overtime_act';
+-DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_payable_act';
+-DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_work_hours';
+-DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_dept_based';
+-DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_grades';
+-
+-INSERT INTO `0_sys_prefs` VALUES ('payroll_deductleave_act', NULL, 'varchar', 15, '');
+-INSERT INTO `0_sys_prefs` VALUES ('payroll_month_work_days', NULL, 'float', NULL, 26);
+-INSERT INTO `0_sys_prefs` VALUES ('payroll_overtime_act', NULL, 'varchar', 15, 5420);
+-INSERT INTO `0_sys_prefs` VALUES ('payroll_payable_act', NULL, 'varchar', 15, 2100);
+-INSERT INTO `0_sys_prefs` VALUES ('payroll_work_hours', NULL, 'float', NULL, 8);
+-INSERT INTO `0_sys_prefs` VALUES ('payroll_dept_based', NULL, 'tinyint', 1, 0);
+-INSERT INTO `0_sys_prefs` VALUES ('payroll_grades', NULL, 'tinyint', 2, 5);
+\ No newline at end of file
+diff --git a/sql/upgrade2.sql b/sql/upgrade2.sql
+new file mode 100644
+index 0000000..4113894
+--- /dev/null
++++ b/sql/upgrade2.sql
+@@ -0,0 +1,125 @@
++# module structure upgrade as of 21/01/2023
++ALTER TABLE `0_employee` ADD COLUMN `national_id` varchar(100) DEFAULT NULL AFTER `emp_birthdate`;
++ALTER TABLE `0_employee` ADD COLUMN `passport` varchar(100) DEFAULT NULL AFTER `national_id`;
++ALTER TABLE `0_employee` ADD COLUMN `bank_account` varchar(100) DEFAULT NULL AFTER `passport`;
++ALTER TABLE `0_employee` ADD COLUMN `tax_number` varchar(100) DEFAULT NULL AFTER `bank_account`;
++ALTER TABLE `0_employee`
++	CHANGE `salary_scale_id` `position_id` int(11) NOT NULL DEFAULT '0',
++	DROP KEY `salary_scale_id`,
++	ADD  KEY `position_id` (`position_id`);
++ALTER TABLE `0_employee` ADD COLUMN `grade_id` tinyint(2) UNSIGNED NOT NULL DEFAULT '0' AFTER `position_id`;
++ALTER TABLE `0_employee` ADD COLUMN `personal_salary` tinyint(1) UNSIGNED NOT NULL DEFAULT '0' AFTER `grade_id`;
++
++ALTER TABLE `0_department` ADD COLUMN `basic_account`  varchar(15) NULL AFTER `dept_name`;
++
++ALTER TABLE  `0_salaryscale`;
++ALTER TABLE  `0_salaryscale` CHANGE `scale_id` `position_id` int(11) NOT NULL AUTO_INCREMENT,
++     DROP PRIMARY KEY,
++     ADD PRIMARY KEY (`position_id`);
++ALTER TABLE  `0_salaryscale` CHANGE `scale_name` `position_name` text NOT NULL;
++ALTER TABLE `0_salaryscale` RENAME `0_position`;
++
++ALTER TABLE `0_attendance` CHANGE `hours_no` `hours_no` float(5) UNSIGNED NOT NULL;
++
++ALTER TABLE `0_employee_trans` CHANGE `trans_no` `trans_no` int(11) UNSIGNED NOT NULL DEFAULT '0';
++ALTER TABLE `0_employee_trans` CHANGE `payslip_no` `payslip_no` int(11) NOT NULL DEFAULT '0';
++
++ALTER TABLE `0_payroll_account` CHANGE `account_id` `element_id` int(11) NOT NULL AUTO_INCREMENT,
++    DROP PRIMARY KEY,
++    ADD PRIMARY KEY (`element_id`),
++    ADD UNIQUE KEY (`account_code`);
++
++ALTER TABLE `0_payroll_account` ADD `element_name` varchar(100) NOT NULL DEFAULT '' AFTER `element_id`;
++ALTER TABLE `0_payroll_account` CHANGE `account_code` `account_code` varchar(15) NOT NULL;
++ALTER TABLE `0_payroll_account` RENAME `0_pay_element`;
++
++
++ALTER TABLE `0_payroll_structure` CHANGE `salary_scale_id`  `position_id` int(11) NOT NULL,
++    DROP KEY `salary_scale_id`,
++    ADD KEY `position_id` (`position_id`);
++
++ALTER TABLE `0_salary_structure` CHANGE `salary_scale_id`  `position_id` int(11) NOT NULL;
++ALTER TABLE `0_salary_structure` ADD COLUMN `grade_id` tinyint(2) NOT NULL DEFAULT '0' AFTER `position_id`;
++
++DROP TABLE IF EXISTS `0_personal_salary_structure`;
++CREATE TABLE IF NOT EXISTS `0_personal_salary_structure` (
++	`id` int(11) NOT NULL AUTO_INCREMENT,
++	`date` date NOT NULL,
++	`emp_id` int(11) NOT NULL,
++	`pay_rule_id` varchar(15) NOT NULL,
++	`pay_amount` double NOT NULL,
++	`type` tinyint(1) NOT NULL COMMENT '0 for credit, 1 for debit',
++	`is_basic` tinyint(1) NOT NULL DEFAULT '0',
++	PRIMARY KEY (`id`)
++) ENGINE=InnoDB;
++
++ALTER TABLE `0_employee_trans` ADD COLUMN `trans_type` smallint(6) UNSIGNED NOT NULL DEFAULT '0' AFTER `trans_no`;
++
++DROP TABLE IF EXISTS `0_employee_advance`;
++CREATE TABLE IF NOT EXISTS `0_employee_advance` (
++	`emp_trans_no` int(11) NOT NULL,
++	`emp_id` int(11) NOT NULL
++) ENGINE=InnoDB;
++
++DROP TABLE IF EXISTS `0_employee_advance_allocation`;
++CREATE TABLE IF NOT EXISTS `0_employee_advance_allocation` (
++	`trans_no_from` int(11) DEFAULT NULL,
++	`trans_no_to` int(11) DEFAULT NULL,
++	`amount` double UNSIGNED DEFAULT NULL
++) ENGINE=InnoDB;
++
++DROP TABLE IF EXISTS `0_document_types`;
++CREATE TABLE IF NOT EXISTS `0_document_types` (
++	`type_id` int(11) NOT NULL AUTO_INCREMENT,
++	`type_name` varchar(100) NOT NULL,
++	`notify_before` smallint(5) UNSIGNED NOT NULL,
++	`inactive` tinyint(1) NOT NULL DEFAULT '0',
++	PRIMARY KEY (`type_id`)
++) ENGINE=InnoDB;
++
++DROP TABLE IF EXISTS `0_employee_docs`;
++CREATE TABLE IF NOT EXISTS `0_employee_docs` (
++	`id` int(11) NOT NULL AUTO_INCREMENT,
++	`emp_id` int(11) NOT NULL,
++	`type_id` int(11) NOT NULL,
++	`description` varchar(60) NOT NULL default '',
++	`issue_date` date DEFAULT NULL,
++	`expiry_date` date DEFAULT NULL,
++	`alert` tinyint(1) NOT NULL DEFAULT '0',
++	`unique_name` varchar(60) NOT NULL default '',
++	`filename` varchar(60) NOT NULL default '',
++	`filesize` int(11) NOT NULL default '0',
++	`filetype` varchar(60) NOT NULL default '',
++	PRIMARY KEY (`id`)
++) ENGINE=InnoDB;
++
++DROP TABLE IF EXISTS `0_grade_table`;
++CREATE TABLE IF NOT EXISTS `0_grade_table` (
++	`grade_id` tinyint(2) NOT NULL,
++	`position_id` int(11) NOT NULL,
++	`amount` double NOT NULL DEFAULT '0',
++	PRIMARY KEY (`grade_id`, `position_id`)
++) ENGINE=InnoDB;
++
++DROP TABLE IF EXISTS `0_leave`;
++CREATE TABLE IF NOT EXISTS `0_leave` (
++	`emp_id` int(11) NOT NULL,
++	`leave_id` int(11) NOT NULL,
++	`pay_rate` float(5) NOT NULL DEFAULT '1',
++	`date` date NOT NULL,
++	PRIMARY KEY (`emp_id`,`leave_id`,`date`)
++) ENGINE=InnoDB;
++
++DROP TABLE IF EXISTS `0_leave_type`;
++CREATE TABLE IF NOT EXISTS `0_leave_type` (
++	`leave_id` int(11) NOT NULL AUTO_INCREMENT,
++	`leave_name` varchar(100) NOT NULL,
++	`leave_code` varchar(3) NOT NULL,
++	`pay_rate` float(5) NOT NULL,
++	`inactive` tinyint(1) NOT NULL DEFAULT '0',
++	PRIMARY KEY (`leave_id`)
++) ENGINE=InnoDB;
++
++INSERT IGNORE INTO `0_sys_prefs` VALUES
++ ('payroll_dept_based', NULL, 'tinyint', 1, 0),
++ ('payroll_grades', NULL, 'tinyint', 2, 5);
+diff --git a/sql/version1.sql b/sql/version1.sql
+new file mode 100644
+index 0000000..8f61c2b
+--- /dev/null
++++ b/sql/version1.sql
+@@ -0,0 +1,136 @@
++DROP TABLE IF EXISTS `0_employee`;
++CREATE TABLE IF NOT EXISTS `0_employee` (
++    `emp_id` int(11) NOT NULL AUTO_INCREMENT,
++    `emp_first_name` varchar(100) DEFAULT NULL,
++    `emp_last_name` varchar(100) DEFAULT NULL,
++	  `gender` tinyint(1) NOT NULL DEFAULT 0,
++    `emp_address` tinytext,
++    `emp_mobile` varchar(30) DEFAULT NULL,
++    `emp_email` varchar(100) DEFAULT NULL,
++    `emp_birthdate` date NOT NULL,
++    `emp_notes` tinytext NOT NULL,
++    `emp_hiredate` date DEFAULT NULL,
++    `department_id` int(11) NOT NULL,
++    `salary_scale_id` int(11) NOT NULL DEFAULT 0,
++    `emp_releasedate` date DEFAULT NULL,
++    `inactive` tinyint(1) NOT NULL DEFAULT 0,
++    PRIMARY KEY (`emp_id`),
++    KEY `salary_scale_id` (`salary_scale_id`),
++    KEY `department_id` (`department_id`)
++) ENGINE=InnoDB;
++
++
++DROP TABLE IF EXISTS `0_department`;
++CREATE TABLE IF NOT EXISTS `0_department` (
++    `dept_id` int(11) NOT NULL AUTO_INCREMENT,
++    `dept_name` tinytext NOT NULL,
++    `inactive` tinyint(1) NOT NULL DEFAULT 0,
++    PRIMARY KEY (`dept_id`)
++) ENGINE=InnoDB;
++
++
++DROP TABLE IF EXISTS `0_salaryscale`;
++CREATE TABLE IF NOT EXISTS `0_salaryscale` (
++    `scale_id` int(11) NOT NULL AUTO_INCREMENT,
++    `scale_name` text NOT NULL,
++    `inactive` tinyint(1) NOT NULL DEFAULT 0,
++    `pay_basis` tinyint(1) NOT NULL DEFAULT 0 COMMENT '0 = monthly, 1 = daily',
++    PRIMARY KEY (`scale_id`)
++) ENGINE=InnoDB;
++
++
++DROP TABLE IF EXISTS `0_overtime`;
++CREATE TABLE IF NOT EXISTS `0_overtime` (
++    `overtime_id` int(11) NOT NULL AUTO_INCREMENT,
++	  `overtime_name` varchar(100) NOT NULL,
++    `overtime_rate` float(5) NOT NULL,
++    `inactive` tinyint(1) NOT NULL DEFAULT 0,
++  PRIMARY KEY (`overtime_id`)
++) ENGINE=InnoDB;
++
++
++DROP TABLE IF EXISTS `0_attendance`;
++CREATE TABLE IF NOT EXISTS `0_attendance` (
++    `emp_id` int(11) NOT NULL,
++    `overtime_id` int(11) NOT NULL,
++    `hours_no` float(5) NOT NULL DEFAULT 0,
++    `rate` float(5) NOT NULL DEFAULT 1,
++    `att_date` date NOT NULL,
++    PRIMARY KEY (`emp_id`,`overtime_id`,`att_date`)
++) ENGINE=InnoDB;
++
++
++DROP TABLE IF EXISTS `0_payroll_account`;
++CREATE TABLE IF NOT EXISTS `0_payroll_account` (
++  `account_id` int(11) NOT NULL AUTO_INCREMENT,
++  `account_code` int(11) NOT NULL,
++  PRIMARY KEY (`account_id`)
++) ENGINE=InnoDB;
++
++
++DROP TABLE IF EXISTS `0_payroll_structure`;
++CREATE TABLE IF NOT EXISTS `0_payroll_structure` (
++  `salary_scale_id` int(11) NOT NULL,
++  `payroll_rule` text NOT NULL,
++  KEY `salary_scale_id` (`salary_scale_id`)
++) ENGINE=InnoDB;
++
++
++DROP TABLE IF EXISTS `0_salary_structure`;
++CREATE TABLE IF NOT EXISTS `0_salary_structure` (
++  `id` int(11) NOT NULL AUTO_INCREMENT,
++  `date` date NOT NULL,
++  `salary_scale_id` int(11) NOT NULL,
++  `pay_rule_id` varchar(15) NOT NULL,
++  `pay_amount` double NOT NULL,
++  `type` tinyint(1) NOT NULL COMMENT '0 for credit, 1 for debit',
++  `is_basic` tinyint(1) NOT NULL DEFAULT 0,
++  PRIMARY KEY (`id`)
++) ENGINE=InnoDB;
++
++
++DROP TABLE IF EXISTS `0_payslip`;
++CREATE TABLE IF NOT EXISTS `0_payslip` (
++  `payslip_no` int(11) NOT NULL AUTO_INCREMENT,
++  `trans_no` int(11) NOT NULL DEFAULT 0,
++  `emp_id` int(11) NOT NULL,
++  `generated_date` date NOT NULL,
++  `from_date` date NOT NULL,
++  `to_date` date NOT NULL,
++  `leaves` int(11) NOT NULL,
++  `deductable_leaves` int(11) NOT NULL,
++  `payable_amount` double NOT NULL DEFAULT 0,
++  `salary_amount` double NOT NULL DEFAULT 0,
++  PRIMARY KEY (`payslip_no`)
++) ENGINE=InnoDB;
++
++DROP TABLE IF EXISTS `0_payslip_details`;
++CREATE TABLE IF NOT EXISTS `0_payslip_details` (
++  `payslip_no` int(11) NOT NULL AUTO_INCREMENT,
++  `detail` int(11) NOT NULL DEFAULT 0,
++  `amount` double NOT NULL DEFAULT 0,
++  PRIMARY KEY (`payslip_no`, `detail`)
++) ENGINE=InnoDB;
++
++DROP TABLE IF EXISTS `0_employee_trans`;
++CREATE TABLE IF NOT EXISTS `0_employee_trans` (
++  `id` int(11) NOT NULL AUTO_INCREMENT,
++  `trans_no` int(11) NOT NULL DEFAULT 0,
++  `payslip_no` int(11) NOT NULL,
++  `pay_date` date NOT NULL,
++  `to_the_order_of` varchar(255) NOT NULL,
++  `pay_amount` double NOT NULL DEFAULT 0,
++  PRIMARY KEY (`id`)
++) ENGINE=InnoDB;
++
++DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_deductleave_act';
++DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_month_work_days';
++DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_overtime_act';
++DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_payable_act';
++DELETE FROM `0_sys_prefs` WHERE `0_sys_prefs`.`name` = 'payroll_work_hours';
++
++INSERT INTO `0_sys_prefs` VALUES ('payroll_deductleave_act', NULL, 'int', NULL, 5410);
++INSERT INTO `0_sys_prefs` VALUES ('payroll_month_work_days', NULL, 'float', NULL, 26);
++INSERT INTO `0_sys_prefs` VALUES ('payroll_overtime_act', NULL, 'int', NULL, 5420);
++INSERT INTO `0_sys_prefs` VALUES ('payroll_payable_act', NULL, 'int', NULL, 2100);
++INSERT INTO `0_sys_prefs` VALUES ('payroll_work_hours', NULL, 'float', NULL, 8);
+-- 
+2.25.1
+

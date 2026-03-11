@@ -1,0 +1,4075 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-25 21:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/db_pager_view.inc:172
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:965
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/hrm_classes.inc:147
+msgid "Show also Inactive"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/db_pager_view.inc:180
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:227
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:967
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:449
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/hrm_classes.inc:156
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:104
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:469
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:111
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:185
+msgid "Update"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/db_pager_view.inc:181
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/hrm_classes.inc:157
+msgid "First"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/db_pager_view.inc:182
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/hrm_classes.inc:158
+msgid "Prev"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/db_pager_view.inc:183
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/hrm_classes.inc:159
+msgid "Next"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/db_pager_view.inc:184
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/hrm_classes.inc:160
+msgid "Last"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/db_pager_view.inc:193
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/hrm_classes.inc:169
+#, php-format
+msgid "Records %d-%d of %d"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/db_pager_view.inc:197
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/hrm_classes.inc:174
+msgid "No records"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:139
+msgid "Incorrect Password"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:140
+msgid "The user and password combination is not valid for the system."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:141
+msgid "If you are not an authorized user, please contact your system administrator to obtain an account to enable you to use the system."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:142
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:156
+msgid "Try again"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:152
+msgid "Incorrect Email"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:153
+msgid "The email address does not exist in the system, or is used by more than one user."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:155
+msgid "Plase try again or contact your system administrator to obtain new password."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:167
+msgid "New password sent"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:168
+msgid "A new password has been sent to your mailbox."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:170
+msgid "Login here"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:221
+#, php-format
+msgid "Brute force attack on account '%s' detected. Access for non-logged users temporarily blocked."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:253
+msgid "Security settings have not been defined for your user account."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:254
+msgid "Please contact your system administrator."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:255
+msgid "Please remove $security_groups and $security_headings arrays from config.php file!"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:258
+msgid "Access to application has been blocked until database upgrade is completed by system administrator."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:272
+msgid "The security settings on your account do not permit you to access this function"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/session.inc:281
+msgid "System is blocked after source upgrade until database is updated on System/Software Upgrade page"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:17
+msgid "Set filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:20
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:152
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:301
+msgid "Select"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:99
+msgid "Press Space tab for search pattern entry"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:103
+msgid "Enter code fragment to search or * for all"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:104
+msgid "Enter description fragment to search or * for all"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:309
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:313
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:317
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:321
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:325
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:330
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:334
+msgid "Search items"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:338
+msgid "Search customers"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:342
+msgid "Search branches"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:346
+msgid "Search suppliers"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:352
+msgid "Search GL accounts"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:542
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:1554
+msgid "All Suppliers"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:546
+msgid "Press Space tab to filter by name fragment"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:547
+msgid "Select supplier"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:597
+msgid "All Customers"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:601
+msgid "Press Space tab to filter by name fragment; F2 - entry new customer"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:602
+msgid "Select customer"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:647
+msgid "All branches"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:650
+msgid "Select customer branch"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:686
+msgid "All Locations"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:763
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1582
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:231
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:268
+msgid "Closed"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:763
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2360
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:229
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:266
+msgid "Active"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:843
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:927
+msgid "All Items"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:1375
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:140
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:152
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:154
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:156
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:210
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:98
+msgid "Amount"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:1486
+msgid "All Sales Types"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:1834
+msgid "Use Item Sales Accounts"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:1879
+msgid "No"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:1880
+msgid "Yes"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2127
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:284
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:229
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:74
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:77
+msgid "All"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2143
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2160
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2177
+msgid "All Types"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2144
+msgid "Sales Invoices"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2145
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2180
+msgid "Unsettled transactions"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2146
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2163
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2181
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:615
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:619
+msgid "Payments"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2147
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2164
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2182
+msgid "Credit Notes"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2148
+msgid "Delivery Notes"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2149
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2166
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2184
+msgid "Journal Entries"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2161
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2179
+msgid "Invoices"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2162
+msgid "Overdue Invoices"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2165
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2183
+msgid "Overdue Credit Notes"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2178
+msgid "GRNs"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2197
+msgid "Automatically put balance on back order"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2198
+msgid "Cancel any quantites not delivered"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2215
+msgid "Items Returned to Inventory Location"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2216
+msgid "Items Written Off"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2360
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:977
+msgid "Inactive"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2385
+msgid "New role"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2437
+msgid "No tags defined."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2437
+msgid "No active tags defined."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2475
+#, php-format
+msgid "Activated for '%s'"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2478
+msgid "Available and/or installed"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2548
+msgid "Standard new company American COA (4 digit)"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2550
+msgid "Standard American COA (4 digit) with demo data"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2571
+msgid "No payment Link"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2691
+msgid "Numeric"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2691
+msgid "Alpha Numeric"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2691
+msgid "ALPHA NUMERIC"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_lists.inc:2707
+msgid "All users"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:225
+msgid "Add new"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:227
+msgid "Submit changes"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:228
+msgid "Clone"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:229
+msgid "Edit new record with current data"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:230
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:645
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:450
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:422
+msgid "Cancel"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:230
+msgid "Cancel edition"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:305
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:182
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:364
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:94
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:91
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:91
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:247
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:114
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:91
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:90
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:113
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:115
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:186
+msgid "Delete"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:661
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:225
+msgid "Click Here to Pick up the date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:987
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:999
+msgid "Current Credit:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_input.inc:1013
+msgid "Bank Balance:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:51
+msgid "GL"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:210
+msgid "Info"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:307
+#, php-format
+msgid "Cannot retrieve exchange rate for currency %s. Please adjust approximate rate if needed."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:331
+msgid "Exchange Rate:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:348
+msgid "Date Voided:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:350
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:45
+msgid "Memo:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:448
+msgid "Total Tax Excluded"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:454
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:473
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:497
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:514
+msgid "Included"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:552
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:161
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:204
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:223
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:92
+msgid "Type"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:552
+msgid "Number"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:552
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:166
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:209
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:247
+#: /home/janusz/FA/fa_stable-git/reporting/includes/header2.inc:135
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:210
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:90
+msgid "Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:552
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:166
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:209
+msgid "Total Amount"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:553
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:166
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:209
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:210
+msgid "Left to Allocate"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:553
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:166
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:209
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:210
+msgid "This Allocation"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:576
+msgid "Total Allocated:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:582
+msgid "Left to Allocate:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:598
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:602
+msgid "Allocations"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:615
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:619
+msgid "Pre-Payments"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:635
+msgid "No Quick Entries are defined."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:650
+msgid "No Quick Entry lines are defined."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:655
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:328
+msgid "Cannot post to GL account used by more than one tax type."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:881
+msgid "and"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "January"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "February"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "March"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "April"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "May"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "June"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "July"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "August"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "September"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "October"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "November"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1010
+msgid "December"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1011
+msgid "Su"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1011
+msgid "Mo"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1011
+msgid "Tu"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1011
+msgid "We"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1011
+msgid "Th"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1011
+msgid "Fr"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1011
+msgid "Sa"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1012
+msgid "W"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1013
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:215
+msgid "Back"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_view.inc:1583
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:181
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:363
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:93
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:90
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:90
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:238
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:113
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:90
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:89
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:114
+msgid "Edit"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:93
+msgid "Request from outside of this page is forbidden."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:94
+msgid "CSRF attack detected from: "
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:164
+msgid "You should automatically be forwarded."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:165
+msgid "If this does not happen"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:165
+msgid "click here"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:165
+msgid "to continue"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:213
+msgid "Print"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:215
+msgid "Close"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:506
+msgid "Customers"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:508
+msgid "Branches"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:510
+msgid "Suppliers"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:512
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:514
+msgid "Items"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:644
+msgid "Proceed"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/ui/ui_controls.inc:674
+msgid ""
+"Entered data has not been saved yet.\n"
+"Do you want to abandon changes?"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:22
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:157
+msgid "Journal Entry"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:23
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:156
+msgid "Bank Payment"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:24
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:155
+msgid "Bank Deposit"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:25
+msgid "Funds Transfer"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:26
+msgid "Sales Invoice"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:27
+msgid "Customer Credit Note"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:28
+msgid "Customer Payment"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:29
+msgid "Delivery Note"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:30
+msgid "Location Transfer"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:31
+msgid "Inventory Adjustment"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:32
+msgid "Purchase Order"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:33
+msgid "Supplier Invoice"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:34
+msgid "Supplier Credit Note"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:35
+msgid "Supplier Payment"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:36
+msgid "Purchase Order Delivery"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:37
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:102
+msgid "Work Order"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:38
+msgid "Work Order Issue"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:39
+msgid "Work Order Production"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:40
+msgid "Sales Order"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:41
+msgid "Sales Quotation"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:42
+msgid "Cost Update"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:43
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:182
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:98
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:101
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:154
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:332
+msgid "Dimension"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:44
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:103
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:211
+msgid "Customer"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:45
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:104
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:189
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:212
+msgid "Supplier"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:49
+msgid "Fixed Assets Disposal"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:50
+msgid "Fixed Assets Revaluation"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:54
+msgid "GJ"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:55
+msgid "BP"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:56
+msgid "BD"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:57
+msgid "BT"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:58
+msgid "SI"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:59
+msgid "CN"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:60
+msgid "CP"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:61
+msgid "DN"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:62
+msgid "IT"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:63
+msgid "IA"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:64
+msgid "PO"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:65
+msgid "PI"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:66
+msgid "PC"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:67
+msgid "SP"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:68
+msgid "GRN"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:69
+msgid "WO"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:70
+msgid "WI"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:71
+msgid "WP"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:72
+msgid "SO"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:73
+msgid "SQ"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:74
+msgid "CU"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:75
+msgid "Dim"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:83
+msgid "Savings Account"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:84
+msgid "Chequing Account"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:85
+msgid "Credit Account"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:86
+msgid "Cash Account"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:90
+msgid "Transfer"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:91
+msgid "Cheque"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:92
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:99
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:102
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:105
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:330
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:332
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:334
+msgid "Credit"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:93
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:197
+msgid "Cash"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:101
+msgid "Miscellaneous"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:105
+msgid "Quick Entry"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:112
+msgid "Assemble"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:113
+msgid "Unassemble"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:114
+msgid "Advanced Manufacture"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:118
+msgid "Labour Cost"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:119
+msgid "Overhead Cost"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:120
+msgid "Materials"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:127
+msgid "Assets"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:128
+msgid "Liabilities"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:129
+msgid "Equity"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:130
+msgid "Income"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:131
+msgid "Cost of Goods Sold"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:132
+msgid "Expense"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:139
+msgid "Remainder"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:141
+msgid "Amount, increase base"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:142
+msgid "Amount, reduce base"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:143
+msgid "% amount of base"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:144
+msgid "% amount of base, increase base"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:145
+msgid "% amount of base, reduce base"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:146
+msgid "Taxes added"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:147
+msgid "Taxes added, increase base"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:148
+msgid "Taxes added, reduce base"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:149
+msgid "Taxes included"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:150
+msgid "Taxes included, increase base"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:151
+msgid "Taxes included, reduce base"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:158
+msgid "Supplier Invoice/Credit"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:164
+msgid "Declining balance"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:165
+msgid "Straight line"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:166
+msgid "Sum of the Year Digits"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:167
+msgid "One-time"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:173
+msgid "Manufactured"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:174
+msgid "Purchased"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:175
+msgid "Service"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:181
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:92
+msgid "Account"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:188
+msgid "Customer branch"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:190
+msgid "Shipper"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:191
+msgid "Company internal"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:196
+msgid "Prepayment"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:198
+msgid "After No. of Days"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:199
+msgid "Day In Following Month"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:203
+msgid "Sum per line taxes"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:204
+msgid "Taxes from totals"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:209
+msgid "Unknown"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:210
+msgid "Company"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Jan"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Feb"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Mar"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Apr"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Jun"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Jul"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Aug"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Sep"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Oct"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Nov"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:216
+msgid "Dec"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:222
+msgid "Unicode (multilanguage)"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:223
+msgid "Icelandic"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:224
+msgid "Latvian"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:225
+msgid "Romanian"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:226
+msgid "Slovenian"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:227
+msgid "Polish"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:228
+msgid "Estonian"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:229
+msgid "Spanish"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:230
+msgid "Swedish"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:231
+msgid "Turkish"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:232
+msgid "Czech"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:233
+msgid "Danish"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:234
+msgid "Lithuanian"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:235
+msgid "Slovak"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:236
+msgid "Spanish (alternative)"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:237
+msgid "Persian"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:238
+msgid "Hungarian"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:239
+msgid "French"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/includes/sysnames.inc:240
+msgid "Italian"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:16
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:41
+msgid "General Ledger Transaction Details"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:26
+msgid "The script must be called with a valid transaction type and transaction number to review the general ledger postings for."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:41
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:222
+msgid "Reference"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:42
+msgid "Transaction Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:42
+msgid "GL #"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:45
+msgid "Document Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:45
+msgid "Event Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:47
+msgid "Counterparty"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:51
+msgid "Supplier Reference"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:73
+msgid "Entered By"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:78
+msgid "Exchange rate"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:79
+msgid "Source document"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:89
+msgid "No general ledger transactions have been created for"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:89
+msgid "number"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:98
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:101
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:104
+msgid "Journal Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:98
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:101
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:104
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:152
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:154
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:156
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:330
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:332
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:334
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:81
+msgid "Account Code"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:98
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:101
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:104
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:81
+msgid "Account Name"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:99
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:102
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:105
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:330
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:332
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:334
+msgid "Debit"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:99
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:102
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:105
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:152
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:154
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:156
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:330
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:332
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:334
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:464
+msgid "Memo"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:147
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:32
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:191
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:190
+msgid "Total"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/gl/view/gl_trans_view.php:161
+msgid "This transaction has been voided."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:20
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:155
+msgid "Charge To"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:25
+msgid "Delivered To"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:31
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:190
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:229
+msgid "Item Code"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:31
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:190
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:229
+msgid "Item Description"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:31
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:191
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:226
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:80
+msgid "Quantity"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:32
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:191
+msgid "Unit"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:32
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:191
+msgid "Price"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:32
+msgid "Discount %"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:35
+msgid "All amounts stated in"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:40
+msgid "Payment Terms"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:49
+msgid "SALES QUOTATION"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:50
+msgid "Quotation No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:55
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:72
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:93
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:107
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:130
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:160
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:183
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:203
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:241
+msgid "Customer's Reference"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:56
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:73
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:94
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:108
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:131
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:184
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:242
+msgid "Sales Person"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:57
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:74
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:95
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:109
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:132
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:162
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:185
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:205
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:243
+msgid "Your VAT no."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:58
+msgid "Our Quotation No"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:59
+msgid "Valid until"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:64
+msgid "QUOTE"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:64
+msgid "PREPAYMENT ORDER"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:64
+msgid "SALES ORDER"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:65
+msgid "Order No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:75
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:96
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:110
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:137
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:206
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:244
+msgid "Our Order No"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:76
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:191
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:245
+msgid "Delivery Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:81
+msgid "PACKING SLIP"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:81
+msgid "DELIVERY NOTE"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:82
+msgid "Delivery Note No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:97
+msgid "To Be Invoiced Before"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:102
+msgid "CREDIT NOTE"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:103
+msgid "Credit No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:104
+msgid "Please quote Credit no. when paying. All amounts stated in"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:111
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:143
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:164
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:166
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:207
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:209
+msgid "Due Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:116
+msgid "PREPAYMENT INVOICE"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:117
+msgid "FINAL INVOICE"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:117
+msgid "INVOICE"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:118
+msgid "Invoice No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:120
+msgid "Please quote Invoice no. when paying. All amounts stated in"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:136
+msgid "Date of Payment"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:140
+msgid "Invoice Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:142
+msgid "Date of Sale"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:150
+msgid "REMITTANCE"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:151
+msgid "Remittance No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:152
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:172
+msgid "Order To"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:163
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:186
+msgid "Supplier's Reference"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:166
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:209
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:247
+msgid "Trans Type"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:166
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:209
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:247
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:210
+msgid "#"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:170
+msgid "PURCHASE ORDER"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:171
+msgid "Purchase Order No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:175
+msgid "Deliver To"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:187
+msgid "Order Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:197
+msgid "RECEIPT"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:198
+msgid "Receipt No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:199
+msgid "With thanks from"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:215
+msgid "WORK ORDER"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:216
+msgid "Work Order No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:224
+msgid "Manufactured Item"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:225
+msgid "Into Location"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:228
+msgid "Required By"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:230
+msgid "From Location"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:230
+msgid "Work Centre"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:230
+msgid "Unit Quantity"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:230
+msgid "Total Quantity"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:230
+msgid "Units Issued"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:239
+msgid "STATEMENT"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:247
+msgid "DueDate"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:247
+msgid "Debits"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:248
+msgid "Credits"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:248
+msgid "Allocated"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:248
+msgid "Outstanding"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:261
+msgid "Bank"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:261
+msgid "Bank Account"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:273
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1023
+msgid "You can pay through"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/doctext.inc:277
+msgid "* Subject to Realisation of the Cheque."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:69
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:82
+msgid "The security settings on your account do not permit you to print this report"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:259
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:331
+msgid "Print Out Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:265
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:340
+msgid "Fiscal Year"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:292
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:425
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:361
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:622
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:44
+msgid "Comments"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:393
+msgid "Report Date"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:410
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:604
+msgid "Generated At"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/excel_report.inc:416
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:613
+msgid "Generated By"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/header2.inc:98
+msgid "Phone"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/header2.inc:104
+msgid "Fax"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/header2.inc:110
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:235
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:82
+msgid "Email"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/header2.inc:122
+msgid "Our VAT No."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/header2.inc:128
+msgid "Domicile"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/header2.inc:144
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:367
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:505
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:632
+msgid "Page"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:587
+msgid "Report Period"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:990
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1038
+#, php-format
+msgid "You have no email contact defined for this type of document for '%s'."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1009
+msgid "Dear"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1010
+msgid "Attached you will find "
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1026
+msgid "Kindest regards"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1041
+msgid "Sending document by email failed"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1041
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1044
+msgid "Email:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1044
+msgid "has been sent by email to destination."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/pdf_report.inc:1073
+msgid "Report has been sent to network printer "
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/printer_class.inc:39
+msgid "Cannot open connection to printer"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/printer_class.inc:50
+msgid "Printer does not acept the job"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/printer_class.inc:61
+msgid "Error sending print job control file"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/printer_class.inc:68
+msgid "Print control file not accepted"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/printer_class.inc:76
+msgid "Cannot send report to printer"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/printer_class.inc:86
+msgid "No ack after report printout"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/printer_class.inc:100
+msgid "Cannot flush printing queue"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:62
+msgid "Report Classes:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:82
+msgid "Reports For Class: "
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:102
+msgid "Display: "
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:153
+msgid "Unknown report parameter type:"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:181
+msgid "No Currency Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:237
+msgid "PDF/Printer"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:244
+msgid "Portrait"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:244
+msgid "Landscape"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:251
+msgid "Accumulated"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:251
+msgid "Period Y-1"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:251
+msgid "Budget"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:255
+msgid "No Graphics"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:255
+msgid "Vertical bars"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:255
+msgid "Horizontal bars"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:256
+msgid "Dots"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:256
+msgid "Lines"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:256
+msgid "Pie"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:256
+msgid "Donut"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:256
+msgid "Half Donut"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:256
+msgid "Splines"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:260
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:263
+msgid "No Type Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:273
+msgid "No Account Group Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:292
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:298
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:304
+msgid "No Dimension Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:309
+msgid "No Customer Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:316
+msgid "No Supplier Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:439
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:441
+msgid "No Location Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:444
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:446
+msgid "No Category Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:448
+msgid "No Class Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:453
+msgid "No Areas Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:456
+msgid "No Sales Folk Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/reports_classes.inc:463
+msgid "No Users Filter"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/reporting/includes/tcpdf.php:187
+msgid "Unsupported image file format."
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:27
+msgid "Main Menu"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:70
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:78
+msgid "Dashboard"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:71
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:80
+msgid "Preferences"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:72
+msgid "Change Password"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:73
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:87
+msgid "Logout"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:74
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:85
+msgid "Help"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:81
+msgid "Change password"
+msgstr ""
+
+#: /home/janusz/FA/fa_stable-git/themes/icon/renderer.php:136
+msgid "Theme:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:18
+msgid "&Human Resources"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:20
+msgid "Transactions"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:21
+msgid "Attenda&nce"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:22
+msgid "Pay&slip Entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:24
+msgid "Document E&xpiration"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:25
+msgid "&Payment Advice"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:26
+msgid "Employee &Advances"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:28
+msgid "Inquiries and Reports"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:29
+msgid "&Timesheet"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:30
+msgid "Employee Transaction In&quiry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:31
+msgid "Employee Document Inq&uiry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:32
+msgid "Employee &Reports"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:34
+msgid "Maintenance"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:35
+msgid "&Employees"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:36
+msgid "Document T&ypes"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:37
+msgid "&Departments"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:38
+msgid "Manage &Overtime"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:39
+msgid "Lea&ve Types"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:40
+msgid "De&fault Settings"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:42
+msgid "&Job Positions"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:43
+msgid "Manage &Grades"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:44
+msgid "Pay Ele&ments"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:45
+msgid "Pay Elements Allo&cation"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:46
+msgid "Sa&lary Structure"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:61
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:38
+msgid "Human Resources"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:62
+msgid "Employee entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:63
+msgid "Attendance entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:64
+msgid "Payslip entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../hooks.php:65
+msgid "Hrm setup"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/db/employee_db_banking.inc:113
+msgid "Document reentered."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:23
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:47
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep889.php:203
+msgid "Date:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:25
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:48
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:44
+msgid "Reference:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:52
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:54
+msgid "Pay To:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:52
+msgid "Select Employee"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:56
+msgid "To the Order of:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:56
+msgid "Name:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:72
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:49
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:46
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/time_sheet.php:40
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:127
+msgid "From:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:72
+msgid "Into:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:77
+msgid "Pay Slip:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:77
+msgid "Select payslip"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:79
+msgid "Amount:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:152
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:154
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:156
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:330
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:332
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:334
+msgid "Account Description"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:152
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:330
+msgid "Dimension 1"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:152
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:330
+msgid "Dimension 2"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:181
+msgid "Edit document line"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:182
+msgid "Remove line from document"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:208
+#, php-format
+msgid "Allocated amounts in %s:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:210
+msgid "Transaction Type"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:210
+msgid "Ref"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:210
+msgid "Other Allocations"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:230
+msgid "None"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_bank_ui.inc:236
+msgid "Total Amount:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_ui.inc:54
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_ui.inc:59
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_ui.inc:64
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:194
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:40
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:70
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:33
+msgid "Male"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_ui.inc:55
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_ui.inc:60
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_ui.inc:65
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:192
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:40
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:68
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:33
+msgid "Female"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_ui.inc:56
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_ui.inc:61
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/employee_ui.inc:66
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:196
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:72
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:33
+msgid "Other"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:49
+msgid "Pay From"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:50
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:47
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/time_sheet.php:41
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:218
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:220
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:132
+msgid "To:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:50
+msgid "Pay To"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:54
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:199
+msgid "Select employee"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:61
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:142
+msgid "Pay Basis:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:61
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:142
+msgid "Monthly salary"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:61
+msgid "Daily wages"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:62
+msgid "Payslip No:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:73
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:106
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:94
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:88
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:114
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep889.php:102
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:138
+msgid "days"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:73
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:106
+msgid "day"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:74
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:84
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:95
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep889.php:103
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:139
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:159
+msgid "hours"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:74
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:84
+msgid "hour"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:75
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:93
+msgid "Work days:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:76
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:94
+msgid "Leave hours:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:171
+msgid "This employee does not belong to any department"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:175
+msgid "Basic account has not been set for department"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:179
+msgid "Basic account has not been set for job position"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:308
+#, php-format
+msgid "non-working period of staff #%d"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:363
+msgid "Edit journal line"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:364
+msgid "Remove line from journal"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:374
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:178
+msgid "Total Salary"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:449
+msgid "Confirm changes"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:450
+msgid "Cancel changes"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:454
+msgid "Add Item"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:454
+msgid "Add new line to journal"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/ui/payslip_ui.inc:486
+msgid "All Payslip"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/frontHrm_ui.inc:42
+msgid "Monday"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/frontHrm_ui.inc:43
+msgid "Tuesday"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/frontHrm_ui.inc:44
+msgid "Wednesday"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/frontHrm_ui.inc:45
+msgid "Thursday"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/frontHrm_ui.inc:46
+msgid "Friday"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/frontHrm_ui.inc:47
+msgid "Saturday"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../includes/frontHrm_ui.inc:48
+msgid "Sunday"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:32
+msgid "Employee Transaction"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:44
+msgid "Enter reference fragment or leave empty"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:45
+msgid "Enter memo fragment or leave empty"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:53
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/time_sheet.php:37
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:130
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:220
+msgid "All departments"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:54
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/time_sheet.php:38
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:208
+msgid "All employees"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:55
+msgid "Only unpaid:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:56
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/time_sheet.php:43
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:221
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:224
+msgid "Search"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:69
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep889.php:208
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:74
+msgid "Payslip"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:71
+msgid "Employee advance"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:73
+msgid "Payment advice"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:81
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:115
+msgid "Print this Payslip"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:91
+msgid "Trans #"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:93
+msgid "Employee ID"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:94
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/time_sheet.php:50
+msgid "Employee Name"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:95
+msgid "Payslip No"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:96
+msgid "Pay from"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:97
+msgid "Pay to"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/emp_inquiry.php:103
+msgid "Marked items are overdue."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/time_sheet.php:31
+msgid "Timesheet Inquiry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/time_sheet.php:42
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:136
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:137
+msgid "Regular time"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../inquiry/time_sheet.php:50
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:73
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:75
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:77
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:77
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:77
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:99
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:82
+msgid "Id"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:24
+msgid "Manage Pay Elements"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:33
+msgid "Element Name cannot be empty."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:38
+msgid "Selected account is already used."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:45
+msgid "Pay element has been added."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:49
+msgid "The selected pay element has been updated."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:61
+msgid "Cannot delete this account because payroll rules have been created using it."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:64
+msgid "Selected account has been deleted"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:81
+msgid "Element"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:115
+msgid "Element Name:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:118
+msgid "Select Account:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/accounts.php:120
+msgid "Account:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:33
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:38
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:158
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:163
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:237
+msgid "The entered date is invalid."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:44
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:50
+msgid "Cannot make attendance for the date in the future."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:58
+msgid "Attendance input data must be greater than 0, less than 24 hours and formatted in <b>HH:MM</b> or <b>Integer</b>, example - 02:25 , 2:25, 8, 23:59 ..."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:122
+msgid "Employees Attendance"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:128
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:42
+msgid "From"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:128
+msgid "Attendance date begin"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:129
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:43
+msgid "To"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:129
+msgid "Attendance date end"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:130
+msgid "For department"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:131
+msgid "Bulk"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:131
+msgid "Record all as regular work"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:136
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:229
+msgid "ID"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:136
+msgid "Employee"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:146
+msgid "Leave Type"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:184
+msgid "Select Leave Type"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:190
+msgid "Save attendance"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:195
+msgid "There are no employees for attendance."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:207
+msgid "The selected date range includes a date that has been approved, please select another date range."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:233
+msgid "Attendance has been saved."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/attendance.php:235
+msgid "Nothing added"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:33
+msgid "The number of month working days must be between 0 and 31."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:38
+msgid "The number of working hours must be between 0 and 24."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:43
+#, php-format
+msgid "Grade %s is being used by employees, cannot select a lower grade"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:57
+msgid "The Payroll setup has been updated."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:62
+msgid "Payroll default Settings"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:86
+msgid "General Ledger"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:88
+msgid "Accrued Payroll Expense Account:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:89
+msgid "Payroll Expense Account:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:89
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:90
+msgid "Use Salary Basic Account"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:90
+msgid "Overtime account:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:92
+msgid "Working time parameters"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:94
+msgid "Work days per month:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:95
+msgid "Work hours per day:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:96
+msgid "Weekend:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:98
+msgid "Others"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:99
+msgid "Salary based on department:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/default_setup.php:100
+msgid "Number of Grades:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:24
+msgid "Manage Department"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:30
+msgid "The Department name cannot be empty."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:34
+msgid "Please select basic account"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:38
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:38
+msgid "Salary Basic Account must be an expenses account."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:45
+msgid "Selected department has been updated"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:47
+msgid "New department has been added"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:56
+msgid "The Department cannot be deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:59
+msgid "Selected department has been deleted"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:73
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:75
+msgid "Department Name"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:73
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:113
+msgid "Salary Basic Account"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:110
+msgid "Department Name:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/department.php:113
+msgid "Select basic account"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:24
+msgid "Manage Document Categories"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:33
+msgid "The document type description cannot be empty."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:38
+msgid "Days before expiry must be a number."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:44
+msgid "Selected document type has been updated"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:46
+msgid "New document type item has been added"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:56
+msgid "This document category cannot be deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:59
+msgid "Selected document category has been deleted"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:77
+msgid "Description"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:77
+msgid "Alert Before Expiry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:112
+msgid "Description:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/doc_type.php:114
+msgid "Alert before expiry:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:37
+msgid "Employee Payment Entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:42
+msgid "Employee Advance Entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:46
+msgid "Employee Deposit Entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:50
+msgid "Modify Bank Account Entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:54
+msgid "Modify Bank Deposit Entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:64
+msgid "Payment advice already exists"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:65
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:70
+msgid "Payment Advices"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:69
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:66
+msgid "Payslip number does not exist"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:83
+msgid "There are no bank accounts defined in the system."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:112
+#, php-format
+msgid "Employee Payment Advice #%d has been entered"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:117
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:134
+msgid "&View the GL Postings for this Payment"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:119
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:136
+msgid "Enter Another &Payment"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:121
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:138
+msgid "Enter A &Deposit"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:123
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:63
+msgid "Add an Attachment"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:132
+#, php-format
+msgid "Payment #%d has been modified"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:146
+#, php-format
+msgid "Deposit #%d has been entered"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:148
+msgid "View the GL Postings for this Deposit"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:150
+msgid "Enter Another Deposit"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:152
+msgid "Enter A Payment"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:160
+#, php-format
+msgid "Deposit #%d has been modified"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:162
+msgid "&View the GL Postings for this Deposit"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:164
+msgid "Enter Another &Deposit"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:166
+msgid "Enter A &Payment"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:222
+msgid "Payment advice gl entry For Payslip #"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:245
+msgid "You must enter at least one payment line."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:250
+msgid "The total bank amount cannot be 0."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:260
+#, php-format
+msgid "The total bank amount exceeds allowed limit (%s)."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:266
+#, php-format
+msgid "The bank transaction would result in exceed of authorized overdraft limit for transaction: %s #%s on %s."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:276
+msgid "The entered date for the payment is invalid."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:281
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:242
+msgid "The entered date is out of fiscal year or is closed for further data entry."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:286
+msgid "You have to select a payslip."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:291
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:317
+msgid "You have to select an employee."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:299
+msgid "Settled amount have to be positive number."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:304
+msgid "Payment cannot be processed because the amount allocated is more than the total payslip amount"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:313
+msgid "Pay amount have to be positive number."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:347
+msgid "Employee advances have been allocated, no bank payment has been made."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:388
+msgid "The amount entered is not a valid number or is less than zero."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:393
+msgid "The exchange rate cannot be zero or a negative number."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:450
+msgid "Generate Payment Items"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:450
+msgid "Generate Payment GL Items"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:462
+msgid "Payment Items"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:462
+msgid "Deposit Items"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:471
+msgid "Process Payment"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_bank_entry.php:471
+msgid "Process Deposit"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:79
+msgid "Employee Attach Documents"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:82
+msgid "There are no <b>Document Types</b> defined in the system"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:101
+msgid "Select an employee."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:106
+msgid "Select a document type."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:111
+msgid "The document description cannot be empty."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:116
+msgid "Issue date cannot be after expiry date."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:121
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:128
+msgid "Select attachment file."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:126
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:68
+msgid "The file size is over the maximum allowed."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:163
+msgid "Attachment has been inserted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:167
+msgid "Attachment has been updated."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:181
+msgid "Attachment has been deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:207
+msgid "Enter search string:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:207
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:219
+msgid "Enter fragment or leave empty"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:209
+msgid "All document type"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:210
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:319
+msgid "Alert:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:211
+msgid "Not Alert:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:217
+msgid "Expired:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:219
+msgid "Issued:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:232
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:266
+msgid "Alert"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:236
+msgid "Click to edit this document"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:241
+msgid "View"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:244
+msgid "Download"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:261
+msgid "Doc No"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:262
+msgid "Document Type"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:263
+msgid "Document Title"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:264
+msgid "Issue Date"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:265
+msgid "Expiry Date"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:267
+msgid "Filename"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:268
+msgid "Size"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:269
+msgid "Filetype"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:279
+msgid "Marked rows are nearly expired"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:280
+msgid "Marked rows are expired"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:313
+msgid "Document Number:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:314
+msgid "Document type:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:314
+msgid "Select document type"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:315
+msgid "Document title:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:316
+msgid "Issue date:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:317
+msgid "Expiry date:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee_docs.php:318
+msgid "Attached File:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:73
+msgid "Error uploading file."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:83
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:98
+msgid "Only graphics files can be uploaded"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:88
+msgid "Only graphics files are supported - a file extension of .jpg, .png or .gif is expected"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:93
+msgid "The file size is over the maximum allowed. The maximum size allowed in KB is"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:105
+msgid "The existing image could not be removed"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:120
+msgid "The employee first name must be entered."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:125
+msgid "Employee last name must be entered."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:130
+msgid "Invalid email."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:135
+msgid "Invalid birth date."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:140
+msgid "Invalid hire date."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:145
+msgid "Hire date can not be before Birth date."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:150
+msgid "Basic salary amount must be a positive number"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:155
+msgid "Staff's Job Position must be selected to use Personal Salary Structure"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:161
+msgid "Invalid release date."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:199
+msgid "Not hired"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:204
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:340
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:347
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:349
+msgid "Not selected"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:219
+msgid "Enter Search String:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:221
+msgid "All Positions"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:222
+msgid "All Grades"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:223
+msgid "Show resigned:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:231
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:99
+msgid "Name"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:232
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:82
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:88
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:40
+msgid "Gender"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:234
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:82
+msgid "Mobile"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:236
+msgid "Birth"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:238
+msgid "Hired Date"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:239
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:87
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:41
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget901.php:22
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget902.php:33
+msgid "Department"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:250
+msgid "No employee defined."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:298
+msgid "Image File:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:310
+msgid "Delete Image:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:312
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:327
+msgid "Personal Information"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:315
+msgid "Employee Id:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:317
+msgid "First Name:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:318
+msgid "Last Name:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:319
+msgid "Gender:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:320
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep889.php:204
+msgid "Address:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:321
+msgid "Mobile:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:322
+msgid "e-Mail:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:323
+msgid "Birth Date:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:328
+msgid "National ID:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:329
+msgid "Passport:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:330
+msgid "Bank Name/Account:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:331
+msgid "Tax ID Number:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:333
+msgid "Job Information"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:335
+msgid "Notes:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:336
+msgid "Hire Date:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:340
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:342
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:347
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:130
+msgid "Department:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:342
+msgid "Set hire date first"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:349
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:137
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:201
+msgid "Job Position:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:350
+msgid "Salary Grade:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:350
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:209
+msgid "Basic"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:353
+msgid "Resigned:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:354
+msgid "Release Date:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:362
+msgid "Pay Elements"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:365
+msgid "Enter negative amount for deduction, positive for earning"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:368
+msgid "Use Personal Salary Structure:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:370
+msgid "Basic Salary Amount:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:383
+msgid "Update Employee"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:383
+msgid "Update employee details"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:384
+msgid "Select this employee and return to document entry."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:385
+msgid "Delete Employee"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:385
+msgid "Delete employee data if have been never used"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:388
+msgid "Add New Employee Details"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:470
+msgid "Employee details has been updated."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:475
+msgid "A new employee has been added."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:485
+msgid "Employee details has been deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:491
+msgid "Manage Employees"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:498
+msgid "Employees &List"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/employee.php:499
+msgid "&Add/Edit Employee"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:24
+msgid "Manage Grades"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:37
+msgid "Pay amount cannot be a negative number"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:56
+msgid "Grade table has been updated"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:64
+msgid "Grade table for selected job position cannot be deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:67
+msgid "Grade table of selected job position has been deleted"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:82
+msgid "Please define Job Positions First"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:88
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:82
+msgid "Job Position"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:88
+msgid "Basic Amount"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:90
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:145
+msgid "Grade"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/grade.php:141
+msgid "Basic Amount:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:24
+msgid "Leave Types"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:30
+msgid "Salary rate must be a number."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:34
+msgid "The Leave type name cannot be empty."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:38
+msgid "The Leave type code cannot be empty and only allows alphabet letters."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:44
+msgid "Selected leave type has been updated"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:46
+msgid "New leave type has been added"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:56
+msgid "This leave type cannot be deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:59
+msgid "Selected leave type has been deleted"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:77
+msgid "Leave Type Name"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:77
+msgid "Leave Type Code"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:77
+msgid "Salary Rate (%)"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:111
+msgid "Salary rate:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:112
+msgid "Leave Type Name:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/leave_types.php:113
+msgid "Leave Type Code:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:24
+msgid "Overtime Rates"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:30
+msgid "The overtime rate cannot be empty."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:34
+msgid "Overtime rate must be a number."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:38
+msgid "The overtime name cannot be empty."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:44
+msgid "Selected overtime has been updated"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:46
+msgid "New overtime item has been added"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:56
+msgid "This overtime cannot be deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:59
+msgid "Selected overtime item has been deleted"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:77
+msgid "Overtime Name"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:77
+msgid "Overtime Rate"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:114
+msgid "Overtime rate:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/overtime.php:115
+msgid "Overtime Name:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:56
+msgid "Accounts have been updated, some accounts might not have been deleted because Salary Structure using them."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:59
+msgid "Select Job Position first."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:92
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:159
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:161
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:80
+msgid "Pay Element"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:109
+msgid "Save"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:109
+msgid "Save payroll structure"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:111
+msgid "Update payroll rules data"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:112
+msgid "Select this job position and return to document entry."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:113
+msgid "Delete payroll rules if have been never used"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:128
+msgid "Selected payroll rules have been deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:136
+msgid "Manage Payroll Rule"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:145
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:201
+msgid "Select Job Position"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:146
+msgid "Show inactive:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payroll_rules.php:160
+msgid "Define Job Positions first."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:31
+#, php-format
+msgid "Modifying Employee Payslip #%d."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:32
+msgid "Modifying Employee Payslip"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:35
+msgid "Employee Payslip Entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:56
+#, php-format
+msgid "Payslip #%d has been entered"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:57
+msgid "&View this Transaction"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:60
+msgid "Make Payment &Advice for this Payslip"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:61
+msgid "Enter &New Payslip"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:75
+#, php-format
+msgid "Employee Payslip #%d has been updated"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:76
+msgid "&View this Journal Entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:78
+msgid "Return to Payslip &Inquiry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:91
+msgid "You can edit directly only journal entries created via Journal Entry page."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:92
+msgid "Entry &New Journal Entry"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:153
+msgid "Employee not selected"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:168
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:173
+msgid "Selected date has already paid for this person"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:178
+msgid "Selected period contains a period that has already been paid for this person"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:183
+msgid "End date cannot be before the start date"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:188
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:193
+msgid "Cannot pay for the date in the future."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:198
+msgid "Cannot pay for the date before hired date"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:204
+msgid "Selected Employee does not have a Job Position, please define it first."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:209
+msgid "The Employee's Job Position does not have a structure, please define Salary Structure"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:227
+msgid "You must enter at least one journal line."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:232
+msgid "The journal must balance (debits equal to credits) before it can be processed."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:251
+msgid "Employee cannot getting paid for non-working period."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:303
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:308
+msgid "Dimension is closed."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:313
+msgid "You must enter either a debit amount or a credit amount."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:318
+msgid "The debit amount entered is not a valid number or is less than zero."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:323
+msgid "The credit amount entered is not a valid number or is less than zero."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:333
+msgid "Cannot make a journal entry for a bank account. Use banking functions for bank transactions."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:404
+msgid "Generate Payslip"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:404
+msgid "Generate Payslip For Process"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:415
+msgid "Rows"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:421
+msgid "Process PaySlip"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:421
+msgid "Process journal entry only if debits equal to credits"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/payslip.php:422
+msgid "Cancels document entry or removes Gl items"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:24
+msgid "Manage Job Positions"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:30
+msgid "Name field cannot be empty."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:34
+msgid "Amount field value must be a positive number."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:69
+msgid "Selected job position has been updated"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:71
+msgid "New job position has been added"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:80
+msgid "This job position cannot be deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:83
+msgid "Selected job position has been deleted"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:99
+msgid "Salary amount"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:99
+msgid "Pay basis"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:107
+msgid "Monthly"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:107
+msgid "Daily"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:136
+msgid "Position Name:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:138
+msgid "Salary Basic Account:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:141
+msgid "Salary Basic Amount"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/position.php:142
+msgid "Daily wage"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:30
+msgid "Manage Salary Structure"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:38
+msgid "Select job position"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:48
+msgid "Only one amount (earning or deduction) is allowed per rule"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:92
+msgid "Salary structure has been updated."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:103
+msgid "Selected structure has been deleted."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:159
+msgid "Monthly Earnings"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:159
+msgid "Monthly Deductions"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:161
+msgid "Daily Earnings"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:161
+msgid "Daily Deductions"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:165
+msgid "Basic Salary"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:183
+msgid "Save salary structure"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:185
+msgid "Update salary structure data"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:186
+msgid "Delete salary structure if have been never used"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:191
+msgid "Selected job position has not been assigned any pay element yet"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:206
+msgid "Before this function can be run, Job Positions must be defined and Pay Elements must be added."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:212
+msgid "Grade "
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../manage/salary_structure.php:220
+msgid "Please define grade amount for the selected job position first."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/redirect.php:34
+#, php-format
+msgid "Report %s could not be found."
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep889.php:44
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:92
+msgid "Not set"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep889.php:144
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:174
+msgid "Advance Deduction"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep889.php:202
+msgid "Company:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep889.php:205
+msgid "Phone:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:82
+msgid "Employee name"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:82
+msgid "Birth date"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:82
+msgid "Hired date"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_employees.php:91
+msgid "Employees List"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:19
+msgid "No employee filter"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:26
+msgid "No department filter"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:33
+msgid "No gender filter"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:39
+msgid "List of Employees"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/reports_custom.php:45
+msgid "Orientation"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:80
+msgid "Leaves"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:80
+msgid "Earnings"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:120
+msgid "Employee:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:122
+msgid "Payslip #:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../reporting/rep_payslip.php:125
+msgid "ID:"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/custom_dashboards.php:14
+msgid "HRM"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget901.php:15
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget902.php:15
+msgid "Employees by Department"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget901.php:22
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget904.php:22
+msgid "Employees"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget902.php:33
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget903.php:30
+msgid "Class"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget903.php:16
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget904.php:15
+msgid "Employees by Age"
+msgstr ""
+
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget903.php:30
+#: /home/janusz/FA/Repo/srcs/2.4/fronthrm/_devel/../dashboard/widget904.php:22
+msgid "Ages"
+msgstr ""

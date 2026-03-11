@@ -1,0 +1,109 @@
+@import url(libraries/font-awesome-4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+	font-family: Quicksand, sans-serif;
+	color: #555;
+	padding-top: 5%;
+	background: url('images/access_background.svg');
+	background-size: cover;
+	font-weight: 100;
+}
+.login-container {
+	display: inline-block;
+	position: relative;
+	padding: 7em 1.5em 1em 1.5em;
+	width: 320px;
+	background: #FFF;
+	box-shadow: 0 2px 2px 0 #AAA;
+}
+.login-container img {
+	width: 80%;
+	position: absolute;
+	top: .8em;
+	left: 10%;
+}
+@media only screen and (max-width: 480px) {
+	.login-container {
+		width: 85%;
+		border: 0;
+	}
+}
+
+div.input-block {
+	margin: 3em 0;
+}
+input, select {
+	position: relative;
+	color: #555;
+	border: 0;
+	border-bottom: 2px solid #E0E0E0;
+	font-size: 1.2em;
+	transition: 200ms;
+	background-color: transparent;
+	width: 100%;
+	padding-top: 8px;
+	z-index: 2;
+}
+button.login-submit {
+	color: #4D7496;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	background-color: transparent;
+	border: 2px solid #AAA;
+	padding: 2px 40px;
+	width: auto;
+	display: block;
+	margin: 1em 0 2em auto;
+}
+button.login-submit:hover, button.login-submit:focus {
+	outline: none;
+	cursor: pointer;
+	border-color: #4D7496;
+	transition: all 200ms linear;
+}
+label.card {
+	position: absolute;
+	float: left;
+	left: 1.2em;
+	font-size: 1.2em;
+	color: #888;
+	transition: 200ms;
+	z-index: 1;
+}
+label.card_select {
+	position: relative;
+	float: left;
+	top: -3.8em;
+	font-size: .8em;
+	color: #888;
+	transition: 200ms;
+	z-index: 1;
+}
+input:focus, select:focus {
+	outline: none;
+	border-bottom: 2px solid #F95759;
+	transition: all 200ms ease;
+}
+
+.input:focus + .card, input:valid + .card {
+	transform: translate(15%,-100%);
+	font-size: 0.8em;
+	transition: 200ms;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #FFF inset;
+	-webkit-text-fill-color: #555;
+}
+
+.login-container a, body a {
+	color: #AAA;
+	text-decoration: none;
+	margin-top: 1em;
+	font-size: 0.9em;
+}
+.login-container a:hover {
+	color: #E0E0E0;
+	transition: 200ms;
+}

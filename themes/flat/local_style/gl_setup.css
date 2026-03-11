@@ -1,0 +1,6 @@
+@import url(local_pref.css);
+@media all and (max-width: 480px) {
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > span#_po_over_receive_label, #_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > span#_po_over_charge_label {
+		margin: 0;
+	}
+}

@@ -1,0 +1,248 @@
+From ed3ccc65896dd274ece52f24fdf5adde593bf132 Mon Sep 17 00:00:00 2001
+From: Janusz Dobrowolski <janusz@frontaccounting.eu>
+Date: Tue, 24 Jan 2023 16:24:33 +0100
+Subject: [PATCH 3/5] Separate get_emploees_sql/get_employees/get_employee
+ functions.
+
+---
+ includes/db/employee_db.inc         | 29 +++++++++++++++++------------
+ includes/db/job_position_db.inc     |  2 +-
+ includes/db/salary_structure_db.inc |  2 +-
+ includes/ui/payslip_ui.inc          |  4 ++--
+ manage/attendance.php               |  5 +++--
+ manage/employee.php                 |  8 ++++----
+ manage/position.php                 |  2 +-
+ reporting/rep889.php                |  2 +-
+ reporting/rep_employees.php         |  4 +---
+ reporting/rep_payslip.php           |  2 +-
+ 10 files changed, 32 insertions(+), 28 deletions(-)
+
+diff --git a/includes/db/employee_db.inc b/includes/db/employee_db.inc
+index 85732e0..89d04fc 100644
+--- a/includes/db/employee_db.inc
++++ b/includes/db/employee_db.inc
+@@ -72,15 +72,13 @@ function write_employee($id, $first_name, $last_name, $gender, $adrs, $mobile, $
+ 
+ //--------------------------------------------------------------------------
+ 
+-function get_employees($id=false, $all=false, $department=false, $gender=false, $position_id=false, $grade_id=-1, $str=false) {
+-	
++function get_employees_sql($all=false, $department=false, $gender=false, $position_id=false, $grade_id=-1, $str=false) {
++
+ 	$sql = "SELECT *, CONCAT(emp_first_name, ' ', emp_last_name) AS name FROM ".TB_PREF."employee";
+ 	$where = array();
+ 	
+ 	if(!$all)
+ 		$where[] = "!inactive";
+-	if($id)
+-		$where[] = "emp_id=".db_escape($id);
+ 	if(!empty($department))
+ 		$where[] = "department_id = ".db_escape($department);
+ 	if($gender)
+@@ -92,18 +90,25 @@ function get_employees($id=false, $all=false, $department=false, $gender=false,
+ 	if(!empty($str))
+ 		$where[] = "(CONCAT(emp_first_name, ' ', emp_last_name) LIKE ".db_escape("%$str%")." OR emp_email LIKE ".db_escape("%$str%")." OR emp_address LIKE ".db_escape("%$str%")."  OR emp_mobile LIKE ".db_escape("%$str%")."  OR national_id LIKE ".db_escape("%$str%")."  OR passport LIKE ".db_escape("%$str%")."  OR tax_number LIKE ".db_escape("%$str%").")";
+ 
+-		
+ 	if(count($where))
+ 		$sql .= ' WHERE '.implode(' AND ', $where);
+-	else
+-		$sql .= ' WHERE 1';
+-
++    else
++        $sql .= ' WHERE (1)';
+ 	$result = db_query($sql, 'Could not get employee data.');
+ 	
+-	if($id)
+-		return db_fetch($result);
+-	else
+-		return $sql;
++	return $sql;
++}
++
++
++function get_employees($all = false, $department = false, $gender=false, $position_id=false, $grade_id=-1, $str=false) {
++	return db_query(get_employees_sql($all, $department, $gender, $position_id, $grade_id, $str),
++	     'Could not get all employee data.');
++}
++
++function get_employee($id) {
++	$sql = "SELECT *, CONCAT(emp_first_name, ' ', emp_last_name) AS name FROM ".TB_PREF."employee WHERE emp_id=".db_escape($id);
++	$result = db_query($sql, 'Could not get employee data.');
++	return db_fetch($result);
+ }
+ 
+ //--------------------------------------------------------------------------
+diff --git a/includes/db/job_position_db.inc b/includes/db/job_position_db.inc
+index 36feb96..ca1ad8d 100644
+--- a/includes/db/job_position_db.inc
++++ b/includes/db/job_position_db.inc
+@@ -68,7 +68,7 @@ function position_used($id) {
+ 
+ function get_emp_basic_salary($emp_id, $new_staff = false) {
+ 
+-	$person = get_employees($emp_id);
++	$person = get_employee($emp_id);
+ 
+ 	if(empty($person['personal_salary']) || $new_staff)
+ 		$sql = "SELECT s.pay_amount, s.pay_rule_id FROM ".TB_PREF."salary_structure s, ".TB_PREF."employee e WHERE e.position_id = s.position_id AND s.grade_id = e.grade_id AND s.is_basic = 1 AND e.emp_id = ".db_escape($emp_id);
+diff --git a/includes/db/salary_structure_db.inc b/includes/db/salary_structure_db.inc
+index 57671f0..0aff580 100644
+--- a/includes/db/salary_structure_db.inc
++++ b/includes/db/salary_structure_db.inc
+@@ -104,7 +104,7 @@ function get_salary_structure($position_id, $grade_id = 0) {
+ 
+ function get_emp_salary_structure($emp_id) {
+ 
+-	$person = get_employees($emp_id);
++	$person = get_employee($emp_id);
+ 
+ 	if(empty($person['personal_salary']))
+ 		$sql = "SELECT s.* FROM ".TB_PREF."salary_structure s, ".TB_PREF."employee e WHERE s.position_id = e.position_id AND s.grade_id = e.grade_id AND e.emp_id = ".db_escape($emp_id);
+diff --git a/includes/ui/payslip_ui.inc b/includes/ui/payslip_ui.inc
+index f1eacff..06c66ee 100644
+--- a/includes/ui/payslip_ui.inc
++++ b/includes/ui/payslip_ui.inc
+@@ -126,7 +126,8 @@ function generate_gl_items($Order) {
+ 	global $Ajax, $Payable_act, $Deduct_act, $Overtime_act, $Work_hours, $Work_days, $USE_DEPT_ACC;
+ 
+ 	$emp_id 	= $_POST['person_id'];
+-	$position_id = get_employees($emp_id)['position_id'];
++	$emp_row = get_employee($emp_id);
++	$position_id = $emp_row['position_id'];
+ 	$from_date 	= $_POST['from_date'];
+ 	$to_date 	= $_POST['to_date'];
+ 	$workdays = get_workdays_no($from_date, $to_date, $emp_id);
+@@ -145,7 +146,6 @@ function generate_gl_items($Order) {
+ 	$salary_amount = $emp_salary['pay_amount'];
+ 	$salary_basic_acc = $emp_salary['pay_rule_id'];
+ 
+-	$emp_row = get_employees($emp_id);
+ 	$emp_dept = $emp_row['department_id'];
+ 	$dept_name = !empty($emp_dept) ? get_departments($emp_dept)['dept_name'] : '';
+ 	$dept_basic_acc = !empty($emp_dept) ? get_departments($emp_dept)['basic_account'] : '';
+diff --git a/manage/attendance.php b/manage/attendance.php
+index 0c99210..823a708 100644
+--- a/manage/attendance.php
++++ b/manage/attendance.php
+@@ -52,7 +52,7 @@ function can_process() {
+ 		return false;
+ 	}
+ 	
+-	foreach(db_query(get_employees(false, false, get_post('DeptId'))) as $emp) {
++	foreach(get_employees(get_post('DeptId')) as $emp) {
+ 
+ 		$emp_id = $emp['emp_id'];
+ 		$err = _('Attendance input data must be greater than 0, less than 24 hours and formatted in <b>HH:MM</b> or <b>Integer</b>, example - 02:25 , 2:25, 8, 23:59 ...');
+@@ -146,7 +146,7 @@ while($overtime = db_fetch($overtimes)) {
+ $remaining_cols[] = _('Leave Type');
+ 
+ $th = array_merge($initial_cols, $remaining_cols);
+-$employees = db_query(get_employees(false, false, get_post('DeptId')));
++$employees = get_employees(get_post('DeptId'));
+ $emp_ids = array();
+ 
+ $k = 0;
+@@ -238,3 +238,4 @@ if(isset($_POST['addatt'])) {
+ 
+ end_form();
+ end_page();
++
+diff --git a/manage/employee.php b/manage/employee.php
+index 0c068bb..aca50c9 100644
+--- a/manage/employee.php
++++ b/manage/employee.php
+@@ -28,7 +28,7 @@ include_once($path_to_root . '/modules/FrontHrm/includes/frontHrm_ui.inc');
+ 
+ //--------------------------------------------------------------------------
+ 
+-foreach(db_query(get_employees(false, true)) as $emp_row) {
++foreach(get_employees(true) as $emp_row) {
+ 	
+ 	if(isset($_POST[$emp_row['emp_id']])) {
+ 		
+@@ -170,7 +170,7 @@ function can_process() {
+ 
+ function can_delete($cur_id) {
+ 
+-	$employee = get_employees($cur_id, true);
++	$employee = get_employee($cur_id);
+ 
+ 	if($employee['emp_hiredate'] && $employee['emp_hiredate'] != '0000-00-00') {
+ 		display_error('Employed person cannot be deleted.');
+@@ -212,7 +212,7 @@ function employees_table() {
+ 	$_SESSION['EmpId'] = '';
+ 	if(db_has_employee()) {
+ 		
+-		$sql = get_employees(false, check_value('show_inactive'), get_post('DeptId'), false, get_post('position'), get_post('grade', -1), get_post('string'));
++		$sql = get_employees_sql(check_value('show_inactive'), get_post('DeptId'), false, get_post('position'), get_post('grade', -1), get_post('string'));
+ 		
+ 		start_table(TABLESTYLE_NOBORDER);
+ 		start_row();
+@@ -256,7 +256,7 @@ function employee_settings($cur_id) {
+ 	global $path_to_root, $SysPrefs, $avatar_path;
+ 	
+ 	if($cur_id) {
+-		$employee = get_employees($cur_id, true);
++		$employee = get_employee($cur_id);
+ 		$_POST['emp_first_name'] = $employee['emp_first_name'];
+ 		$_POST['emp_last_name'] = $employee['emp_last_name'];
+ 		$_POST['gender'] = $employee['gender'];
+diff --git a/manage/position.php b/manage/position.php
+index 96a0450..1ef24c9 100644
+--- a/manage/position.php
++++ b/manage/position.php
+@@ -55,7 +55,7 @@ if($Mode=='ADD_ITEM' || $Mode=='UPDATE_ITEM') {
+ 		
+ 		set_basic_salary($_POST['AccountId'], input_num('amount'), $added_position, $new);
+ 
+-		$employees = db_query(get_employees());
++		$employees = get_employees();
+ 		if($id && db_num_rows($employees) > 0) {
+ 			foreach ($employees as $staff) {
+ 				if($staff['personal_salary'] == 1 && $staff['position_id'] == $added_position)
+diff --git a/reporting/rep889.php b/reporting/rep889.php
+index b87f68f..2423d5c 100644
+--- a/reporting/rep889.php
++++ b/reporting/rep889.php
+@@ -35,7 +35,7 @@ $y = $pdf->getPageHeight();
+ $img_width = 80;
+ 
+ $payslip = get_payslip(false, $_POST['PARAM_0']);
+-$emp = get_employees($payslip['emp_id']);
++$emp = get_employee($payslip['emp_id']);
+ $emp_name = $emp['emp_first_name'].' '.$emp['emp_last_name'];
+ $emp_id = $emp['emp_id'];
+ if($emp['department_id'] != 0)
+diff --git a/reporting/rep_employees.php b/reporting/rep_employees.php
+index c5f5a37..cbffecf 100644
+--- a/reporting/rep_employees.php
++++ b/reporting/rep_employees.php
+@@ -13,10 +13,8 @@ print_employees_list();
+ 
+ function get_employees_list($gender, $dep, $from, $to) {
+ 	$dep = empty($dep) ? false : $dep;
+-	$sql = get_employees(false, false, $dep);
++	$sql = get_employees_sql(false, $dep, $gender);
+ 
+-	if($gender != -1)
+-		$sql .= " AND gender = ".db_escape($gender);
+ 	if(!empty($from))
+ 		$sql .= " AND emp_id >= ".db_escape($from);
+ 	if(!empty($to))
+diff --git a/reporting/rep_payslip.php b/reporting/rep_payslip.php
+index 62d66b8..121b878 100644
+--- a/reporting/rep_payslip.php
++++ b/reporting/rep_payslip.php
+@@ -83,7 +83,7 @@ function print_employee_payslip() {
+ 
+ 	for($i = $payslip_from; $i <= $payslip_to; $i++) {
+ 		$payslip = get_payslip(false, $i);
+-		$emp = get_employees($payslip['emp_id']);
++		$emp = get_employee($payslip['emp_id']);
+ 		$emp_name = $emp['emp_first_name'].' '.$emp['emp_last_name'];
+ 		$emp_id = $emp['emp_id'];
+ 		if($emp['department_id'] != 0)
+-- 
+2.25.1
+

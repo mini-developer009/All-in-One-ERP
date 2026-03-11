@@ -1,0 +1,53 @@
+@import url(local_pref.css);
+@media all and (max-width: 480px) {
+	#_discount_label, #_pymt_discount_label {
+		margin: 0;
+	}
+}
+@media all and (max-width: 480px) {
+	#contacts_div > center > table.tablestyle:not([width="80%"]), #contacts_div > center > table.tablestyle:not([width="80%"]) > tbody, #contacts_div > center > table.tablestyle:not([width="80%"]) > tbody > tr, #contacts_div > center > table.tablestyle:not([width="80%"]) > tbody > tr > td, #contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner, #contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody, #contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr,  #contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td{
+		display: block;
+		width: 100%;
+		border: 0;
+		margin: 0;
+	}
+	#contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td .list_box {
+		width: 100%;
+	}
+	 #contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr {
+		margin-bottom: 1em;
+	}
+	#contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.label {
+		line-height: 1em;
+		padding-left: 1em;
+	}
+	#contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > * {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	#contacts_div > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > img {
+		margin: 0;
+	}
+}
+@media all and (max-width: 680px) and (min-width: 481px) {
+	#contacts_div > center > table.tablestyle:not([width="80%"]), #contacts_div > center > table.tablestyle:not([width="80%"]) > tbody, #contacts_div > center > table.tablestyle:not([width="80%"]) > tbody > tr, #contacts_div > center > table.tablestyle:not([width="80%"]) > tbody > tr > td, #contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner, #contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody, #contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr {
+		display: inline-block;
+		width: 100%;
+		border: 0;
+	}
+	#contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td {
+		display: block;
+		width: 65%;
+		float: left;
+		border: 0;
+	}
+	#contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.tableheader, #contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td .list_box {
+		width: 100%;
+	}
+	#contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > * {
+		 width: calc(100% - 2em);
+	}
+	#contacts_div > center > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.label {
+		width: 35%;
+	}
+}

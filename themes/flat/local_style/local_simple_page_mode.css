@@ -1,0 +1,39 @@
+#_page_body > form > center:first-child {
+	padding: 5px 0;
+}
+@media all and (max-width: 480px) {
+	#_page_body > form > center > table.tablestyle2, #_page_body > form > center > table.tablestyle2 > tbody, #_page_body > form > center > table.tablestyle2 > tbody > tr, #_page_body > form > center > table.tablestyle2 > tbody > tr > td,
+	div#details, div#details > center > table.tablestyle2, #_page_body > form > div#details > center > table.tablestyle2 > tbody, div#details > center > table.tablestyle2 > tbody > tr, div#details > center > table.tablestyle2 > tbody > tr > td,
+	div#qe, div#qe > center > table.tablestyle2, #_page_body > form > div#qe > center > table.tablestyle2 > tbody, div#qe > center > table.tablestyle2 > tbody > tr, div#qe > center > table.tablestyle2 > tbody > tr > td{
+		display: block;
+		width: 100% ;
+		border: 0;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr,
+	div#details > center > table.tablestyle2 > tbody > tr,
+	div#qe > center > table.tablestyle2 > tbody > tr {
+		margin-bottom: 1em;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td.label,
+	div#details > center > table.tablestyle2 > tbody > tr > td.label,
+	div#qe > center > table.tablestyle2 > tbody > tr > td.label {
+		padding-left: 1em;
+		line-height: 1em
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > *:not(.date_box):not(img),
+	div#details  > center > table.tablestyle2 > tbody > tr > td > *:not(.date_box):not(img),
+	div#qe  > center > table.tablestyle2 > tbody > tr > td > *:not(.date_box):not(img) {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > .date_box,
+	div#details > center > table.tablestyle2 > tbody > tr > td > .date_box,
+	div#qe > center > table.tablestyle2 > tbody > tr > td > .date_box {
+		margin-left: 2em;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td .list_box,
+	div#details > center > table.tablestyle2 > tbody > tr > td .list_box,
+	div#qe > center > table.tablestyle2 > tbody > tr > td .list_box {
+		width: 100%;
+	}
+}

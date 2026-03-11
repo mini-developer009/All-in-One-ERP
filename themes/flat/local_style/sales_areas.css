@@ -1,0 +1,6 @@
+
+@media all and (max-width: 480px) {
+	#_page_body > form > center > table.tablestyle, #_page_body > form > center > table.tablestyle > tbody{
+		width: auto;
+	}
+}

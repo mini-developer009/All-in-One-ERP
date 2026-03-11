@@ -1,0 +1,17 @@
+@import url(local_pref.css);
+
+@media all and (max-width: 480px) {
+	form > center > table.tablestyle_noborder > tbody > tr > td {
+		display: inline-block;
+		width: 50%;
+		padding-left: calc((50% - 135px)/2);
+	}
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > img {
+		margin: 0;
+	}
+	.contentBox > center > table.tablestyle2 > tbody > tr > td:first-child > table.tablestyle_inner > tbody > tr:nth-child(9) > td, .contentBox > center > table.tablestyle2 > tbody > tr > td:first-child > table.tablestyle_inner > tbody > tr:nth-child(10) > td, .contentBox > center > table.tablestyle2 > tbody > tr > td:first-child > table.tablestyle_inner > tbody > tr:nth-child(11) > td {
+		display: inline-block;
+		width: 50%;
+		line-height: 1em;
+	}
+}

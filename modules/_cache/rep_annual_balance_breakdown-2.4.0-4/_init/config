@@ -1,0 +1,11 @@
+Package: rep_annual_balance_breakdown
+Description: Annual balance breakdown report
+Name: Annual balance breakdown report
+Filename: rep_annual_balance_breakdown-2.4.0-4
+Author: NGICON TEAM CHECKED <joe.hunt.consulting@gmail.com>
+Maintenance: NGICON TEAM CHECKED <joe.hunt.consulting@gmail.com>
+Homepage: ngicon.com
+Type: extension
+InstallPath: modules/rep_annual_balance_breakdown
+Version: 2.4.0-4
+

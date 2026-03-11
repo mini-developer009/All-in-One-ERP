@@ -1,0 +1,26 @@
+@import url(local.css);
+/*ENTRY ITEMS*/
+@media all and (max-width: 680px) {
+	form > center > table.tablestyle2 > tbody > tr > td.tableheader2 {
+		padding-left: 1em !important;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td:not(.tableheader2) {
+		text-align: center;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td:not(.tableheader2) > div.date_box {
+		margin: 0 auto;
+	}
+	div#Items input[type=text]:not(.date), div#Items div.list_box {
+		width: 5em;
+	}
+	div#Items > center {
+		padding-bottom: 7px;
+	}
+	div#options, div#options center, div#options center table.tablestyle2, div#options center table.tablestyle2 tbody, div#options center table.tablestyle2 tbody tr, div#options center table.tablestyle2 tbody tr td, div#options center table.tablestyle2 tbody tr td textarea {
+		display: inline-block;
+		width: 100%;
+	}
+	div#options center table.tablestyle2, div#options center table.tablestyle2 tbody tr td {
+		border: 0;
+	}
+}

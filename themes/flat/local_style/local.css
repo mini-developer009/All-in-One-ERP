@@ -1,0 +1,55 @@
+/* ENTRY HEADER */
+@media all and (max-width: 680px) {
+	#_page_body > form > center:first-child > table.tablestyle2, #_page_body > form > center > table.tablestyle2 > tbody, #_page_body > form > center:first-child > table.tablestyle2 > tbody > tr, #_page_body > form > center:first-child > table.tablestyle2 > tbody > tr > td, #_page_body > form > center:first-child > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner, #_page_body > form > center:first-child > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner tbody, #_page_body > form > center:first-child > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr,
+	#_page_body > form > center:first-child > table.tablestyle, #_page_body > form > center > table.tablestyle > tbody, #_page_body > form > center:first-child > table.tablestyle > tbody > tr, #_page_body > form > center:first-child > table.tablestyle > tbody > tr > td, #_page_body > form > center:first-child > table.tablestyle > tbody > tr > td > table.tablestyle_inner, #_page_body > form > center:first-child > table.tablestyle > tbody > tr > td > table.tablestyle_inner tbody, #_page_body > form > center:first-child > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr,
+	#pmt_header > center > table.tablestyle2, #pmt_header > center > table.tablestyle2 > tbody, #pmt_header > center > table.tablestyle2 > tbody > tr, #pmt_header > center > table.tablestyle2 > tbody > tr > td, #pmt_header > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner, #pmt_header > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner tbody, #pmt_header > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr {
+		display: inline-block;
+		width: 100%;
+		border: 0;
+	}
+	#_page_body > form > center:first-child > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td, #_page_body > form > center:first-child > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td, #pmt_header > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td {
+		display: inline-block;
+		width: 60%;
+		border: 0;
+		float: left;
+		margin: 1px 0;
+	}
+	#_page_body > form > center:first-child > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.label, #_page_body > form > center:first-child > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.label, #pmt_header > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.label {
+		width: 40%;
+		padding-left: 5px;
+	}
+	#_page_body > form > center:first-child > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > *:not(.date_box), #_page_body > form > center:first-child > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > *:not(.date_box), #pmt_header > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > *:not(.date_box) {
+		width: calc(100% - 2em);
+	}
+	#_page_body > form > center:first-child > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td .list_box, #_page_body > form > center:first-child > table.tablestyle > tbody > tr > td > table.tablestyle_inner > tbody > tr > td .list_box, #pmt_header > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td .list_box {
+		width: 100%;
+	}
+}
+
+/* FILTER */
+@media all and (max-width: 680px) {
+	#_page_body > form > center > table.tablestyle_noborder, #_page_body > form > center > table.tablestyle_noborder > tbody, #_page_body > form > center > table.tablestyle_noborder > tbody > tr {
+		display: block;
+		width: 100%;
+		overflow: auto;
+	}
+	#_page_body > form > center > table.tablestyle_noborder > tbody > tr > td {
+		display: inline-block;
+		width: 50%;
+		float: left;
+		padding-left: calc((50% - 135px)/2);
+	}
+}
+
+@media all and (max-width: 680px) {
+	div#items_table input[type=text]:not(.date), div#items_table div.list_box {
+		width: 5em;
+	}
+	div#items_table > center {
+		padding-bottom: 7px;
+	}
+}
+/*
+form > center > table {
+	width: 90%;
+}*/

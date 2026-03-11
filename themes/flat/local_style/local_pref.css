@@ -1,0 +1,107 @@
+/*
+@media all and (max-width: 480px) {
+	#_page_body > form > center > table > tbody {
+		display: block;
+		width: 100%;
+		border-top: 1px solid #CCC;
+		border-bottom: 1px solid #CCC;
+	}
+	#_page_body > form > center > table > tbody > tr > td:nth-child(odd) {
+		display: block;
+		width: 40%;
+		float: left;
+	}
+	#_page_body > form > center > table > tbody > tr > td:nth-child(even) {
+		display: block;
+		width: 60%;
+		float: left;
+	}
+	ul.ajaxtabs, div.spaceBox {
+		margin: 0;
+		padding: 0;
+	}
+	div.contentBox {
+		border: 1px solid #8cacbb;
+	}
+}
+*/
+@media all and (max-width: 480px) {
+	#_page_body > form > center > table.tablestyle2, #_page_body > form > center > table.tablestyle2 > tbody, #_page_body > form > center > table.tablestyle2 > tbody > tr, #_page_body > form > center > table.tablestyle2 > tbody > tr > td, #_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner, #_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody, #_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr, #_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td,
+	.contentBox > center > table.tablestyle2, .contentBox > center > table.tablestyle2 > tbody, .contentBox > center > table.tablestyle2 > tbody > tr, .contentBox > center > table.tablestyle2 > tbody > tr > td, .contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner, .contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody, .contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr, .contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td{
+		display: block;
+		width: 100%;
+		border: 0;
+		margin: 0;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr,
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr {
+		margin-bottom: 1em;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.label,
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.label {
+		line-height: 1em;
+		padding-left: 1em;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > *,
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > * {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > img,
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > img {
+		margin: 0;
+	}
+	table.tablestyle2 .list_box {
+		width: 100%;
+	}
+}
+@media all and (max-width: 680px) and (min-width: 481px) {
+	#_page_body > form > center > table.tablestyle2, #_page_body > form > center > table.tablestyle2 > tbody, #_page_body > form > center > table.tablestyle2 > tbody > tr, #_page_body > form > center > table.tablestyle2 > tbody > tr > td, #_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner, #_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody, #_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr,
+	.contentBox > center > table.tablestyle2, .contentBox > center > table.tablestyle2 > tbody, .contentBox > center > table.tablestyle2 > tbody > tr, .contentBox > center > table.tablestyle2 > tbody > tr > td, .contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner, .contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody, .contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr {
+		display: inline-block;
+		width: 100%;
+		border: 0;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td,
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td {
+		display: block;
+		width: 65%;
+		float: left;
+		border: 0;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.tableheader,
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.tableheader {
+		width: 100%;
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > *,
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > * {
+		 width: calc(100% - 2em);
+	}
+	#_page_body > form > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.label,
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td.label {
+		width: 35%;
+	}
+	table.tablestyle2 .list_box {
+		width: 100%;
+	}
+}
+@media all and (max-width: 680px) {
+	div.contentBox > center:first-child > table.tablestyle_noborder, div.contentBox > center:first-child > table.tablestyle_noborder > tbody, div.contentBox > center:first-child > table.tablestyle_noborder > tbody > tr {
+		display: block;
+		width: 100%;
+	}
+	div.contentBox > center:first-child > table.tablestyle_noborder > tbody > tr > td {
+		display: inline-block;
+		width: 50%;
+		float: left;
+		padding-left: calc((50% - 135px)/2);
+	}
+}
+@media all and (min-width: 681px) {
+	.contentBox td {
+		white-space: nowrap;
+	}
+}
+/*.contentBox input[type='text'], .contentBox textarea {
+	width: calc(100% - 2em);
+}*/

@@ -1,0 +1,17 @@
+#_page_body > form > center:first-child {
+	padding: 5px;
+}
+@media all and (max-width: 480px) {
+	div#cost_table, div#cost_table > center > table.tablestyle2, div#cost_table > center > table.tablestyle2 > tbody, div#cost_table > center > table.tablestyle2 > tbody > tr, div#cost_table > center > table.tablestyle2 > tbody > tr > td {
+		display: block;
+		width: 100%;
+		border: 0 !important;
+	}
+	div#cost_table > center > table.tablestyle2 > tbody > tr > td > *:not(.label):not(.tableheader) {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	div#cost_table .list_box {
+		width: 100%;
+	}
+}

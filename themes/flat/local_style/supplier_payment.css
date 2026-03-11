@@ -1,0 +1,6 @@
+@import url(customer_payments.css);
+@media all and (max-width: 480px) {
+	#_page_body > form > center > table.tablestyle > tbody > tr:nth-child(1) > td {
+		width: 100%;
+	}
+}
