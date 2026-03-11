@@ -6,9 +6,9 @@ Only stable code line maintained in master repo branch is supported. Currently t
 
 ## Reporting vulnerabilities
 
-For medium or high severity security vulnerabilities, please report them by email to security@ngicon.com. We will review provided information and contact you to collaborate on resolving the issue.
+For medium or high severity security vulnerabilities, please report them by email to security@mini-developer.com. We will review provided information and contact you to collaborate on resolving the issue.
 
-For low severity security vulnerabilities, you can either follow the above reporting pipeline or open an issue at our [Mantis bugtracker](https://mantis.ngicon.com).
+For low severity security vulnerabilities, you can either follow the above reporting pipeline or open an issue at our [Mantis bugtracker](https://mantis.mini-developer.com).
 
 Please provide as much information as possible:
 
